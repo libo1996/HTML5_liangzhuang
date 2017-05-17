@@ -1,0 +1,257 @@
+/*--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+--*/
+body a{
+    transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+input[type="button"]{
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+
+h1,h2,h3,h4,h5,h6{
+	padding:0 0;
+	margin:0 0;
+}
+p{
+	padding:0 0;
+	margin:0 0;
+}
+ul{
+	padding:0 0;
+	margin:0 0;	
+}
+body{
+	padding:0 0;
+	margin:0 0; 
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.header-bottom{
+	padding: 1em 0;
+}
+.logo{
+	float:left;
+	width:40%;
+	margin-top: 0.8em;
+}
+.logo a {
+  color:#097ef9;
+  font-weight: 700;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  font-family: 'Arvo', serif;
+  text-decoration: none;
+}
+.logo span{
+	color:#f907bf;
+}
+.logo a {
+	display: block;
+}
+.top-menu{
+	float:left;
+	margin-top: 1.7em;
+}
+.top-menu ul li{
+	display:inline-block;
+	
+}
+.top-menu ul li a{
+	font-size:1.2em;
+	font-size: 1.2em;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin: 0 0.8em;
+	font-weight: 700;
+	color: rgba(80, 106, 133, 1);
+}
+.top-menu ul li a:hover {
+	color: #BC008F;
+}
+.top-menu ul li a.active {
+	color: #BC008F;
+}
+nav a {
+	position: relative;
+	display: inline-block;
+	outline: none;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 400;
+	text-shadow: 0 0 1px rgba(255,255,255,0.3);
+	font-size: 1.35em;
+}
+
+nav a:hover,
+nav a:focus {
+	outline: none;
+}
+.search-box{
+	font-size: 16px;
+	margin-top: 24px;
+	float: right;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.search-box a{
+	text-decoration: none;
+}
+.cl-effect-5 a {
+	overflow: hidden;
+}
+
+.cl-effect-5 a span {
+	position: relative;
+	display: inline-block;
+	-webkit-transition: -webkit-transform 0.3s;
+	-moz-transition: -moz-transform 0.3s;
+	transition: transform 0.3s;
+}
+
+.cl-effect-5 a span::before {
+	position: absolute;
+	top: 100%;
+	content: attr(data-hover);
+	font-weight: 700;
+	-webkit-transform: translate3d(0,0,0);
+	-moz-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+.cl-effect-5 a:hover span,
+.cl-effect-5 a:focus span {
+	-webkit-transform: translateY(-100%);
+	-moz-transform: translateY(-100%);
+	transform: translateY(-100%);
+}
+.clearfix2{
+	margin-top: 30px;
+}
+.clearfix3{
+	margin-top: 80px;
+}
+.aa{
+	padding-top: 80px;
+}
+.column1{
+	margin-top: -20px;
+}
+.column1 ul li{
+    list-style: none;
+    text-decoration: none;
+    width: 60px;
+    float: left;
+    margin-top: 8px;
+}
+.column1 ul li a{
+	text-decoration: none;
+	color: black;
+}
+#panel-832241{
+	width: 100%;
+}
+#panel-832241 li{
+	list-style: none;
+	width: 24%;
+	margin-left: 5px;
+	float: left;
+	margin-top: 25px;
+}
+#panel-832241 li a{
+	text-decoration: none;
+}
+.bb{
+	padding-left: 70px;
+}
+#panel-258883{
+	width: 100%;
+}
+#panel-258883 li{
+	list-style: none;
+	width: 24%;
+	margin-left: 5px;
+	float: left;
+	margin-top: 25px;
+}
+#panel-258883 li a{
+	text-decoration: none;
+}
+.column4{
+	width: 100%;
+}
+.column4 h3{
+    text-align: center;
+    margin-bottom:70px; 
+}
+.col-md-45{
+    width: 45%;
+    margin-left:30px;
+    margin-top: 30px;
+    float: left;
+}
+.thumbnail1 img{
+	width: 100%;
+}
+.footer-section{
+	margin-top: 80px;
+	background:#0A0417;
+	padding:1em 0;
+}
+.aa a:hover{
+    color: orange;
+}
+.cc a:hover{
+    color: orange;
+}
+.footer-left{
+	float:left;
+}
+.bottom-menu{
+	float:right;
+}
+.bottom-menu ul li {
+	display:inline-block;
+}
+.footer-left p {
+	font-size: 1.15em;
+	color: #707e8c;
+}
+.footer-left p a {
+	font-size: 1.1em;
+	color: #707e8c;
+	margin-left: 10px;
+}
+.footer-left p a:hover{
+	color:#2C7ED3;
+}
+.bottom-menu ul li a {
+	font-size: 1.2em;
+	color: #acb3ba;
+	text-decoration: none;
+	margin: 0 0.5em;
+	text-transform:capitalize;
+}
+.bottom-menu ul li a:hover{
+	color:#BC008F;
+}
+.bottom-menu ul li a.active{
+	color:#BC008F;
+}
+#pc1{
+ text-align: center;
+ margin-top: 10px;
+}
+.table th{
+	border: 0px;
+}
