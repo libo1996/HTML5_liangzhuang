@@ -1,0 +1,38 @@
+ .zc_c{
+	border:1px solid #0E0A12;
+	color:#0E0A12;
+}
+.zc_cc{
+	border:1px solid #0E0A12;
+	margin:20px;
+}
+.zc_c h3{
+	text-align: center;
+}
+.button a:link {
+     text-decoration:none;
+ }
+.content {
+  border:1px solid #0E0A12;
+  margin-bottom: 5px;
+
+}
+.img{
+  text-align: center;
+}
+.but{
+  margin-left: 280px;
+  margin-bottom:20px; 
+}
+
+h3{
+	color:#0E0A12;
+	text-align: center;
+}
+.search-box a{
+	color:#0E0A12;
+}
+#zcimg{
+	width: 20px;
+	height:20px;
+}
