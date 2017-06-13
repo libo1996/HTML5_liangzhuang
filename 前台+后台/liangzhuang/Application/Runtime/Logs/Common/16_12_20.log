@@ -1,0 +1,24 @@
+[ 2016-12-20T08:30:16+08:00 ] 127.0.0.1 /weiju1/index.php/admn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000838s ]
+ERR: 无法加载模块:Admn
+
+[ 2016-12-20T14:27:42+08:00 ] 127.0.0.1 /weiju1/index.php/%E7%99%BB%E5%BD%95%E9%A1%B5%E9%9D%A2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000778s ]
+ERR: 无法加载模块:登录页面
+
+[ 2016-12-20T15:09:43+08:00 ] 127.0.0.1 /weiju1/index.php/Adminindex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+ERR: 无法加载模块:Adminindex
+
+[ 2016-12-20T15:37:29+08:00 ] 127.0.0.1 /weiju1/index.php/Adminfood/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001249s ]
+ERR: 无法加载模块:Adminfood
+

@@ -1,0 +1,108 @@
+<html>
+<head>
+<title>Product</title>
+<link href="__PUBLIC__/home/css/product.css" rel="stylesheet" type="text/css" media="all" />
+<link href="__PUBLIC__/home/css/style.css" rel="stylesheet" type="text/css" media="all" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="__PUBLIC__/home/js/jquery.js"></script>
+<script type="text/javascript" src="__PUBLIC__/home/js/bootstrap.min.js"></script>
+<link href="__PUBLIC__/home/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
+<style type="text/css">
+	.header{
+		margin-bottom: 5%;
+	}
+	body{
+		background-color: rgb(255,255,237);
+	}
+</style>
+</head>
+<body>
+<div class="header" id="home">
+	<div class="container">
+	   <div class="header-bottom">
+		<div class="logo">
+			<img src="__PUBLIC__/home/images/LOGO.png" width="60%">
+		</div>
+			<div class="top-menu">
+				<span class="menu"> </span>
+				<ul>
+					<nav class="cl-effect-5">
+					<li><a href="{:U('Home/index/index')}" ><span data-hover="首页">首页</span></a></li>
+					<li><a href="{:U('Home/pp/product')}" class="active"><span data-hover="产品介绍">产品介绍</span></a></li>
+					<li><a href="{:U('Home/video/video')}"><span data-hover="视频教学">视频教学</span></a></li>
+					<li><a href="{:U('Home/sce/services')}"><span data-hover="美妆点评">美妆点评</span></a></li>
+					<li><a href="{:U('Home/zc/zcao')}"><span data-hover="种草">种草</span></a></li>
+					</nav>
+				</ul>
+				</div>
+				 <!--script-nav-->
+		 <script>
+		 $("span.menu").click(function(){
+		 $(".top-menu ul").slideToggle("slow" , function(){
+		 });
+		 });
+		 </script>
+		
+		<div class="clearfix"></div>
+	</div>
+	</div>
+</div>
+<div class="container">
+	<div class="row clearfix">
+		<div class="col-md-12 column">
+			<div class="row">
+				<volist name="pp" id="vo">
+				<div class="col-md-4">
+					
+					<div class="thumbnail" style="height:75%" >
+						<img  src="__PUBLIC__/{$vo.img1}" style="height:350px" />
+						<p>{$vo.name}</p>
+						<h3>{$vo.brand}</h3>
+						<a href="{:U('Home/pp/product_content')}/pid/{$vo.pid}"><input type="button" class="ww" value="去看看" ></a>
+					</div>
+					
+				</div>
+				</volist>
+				
+			</div>
+		</div>
+	</div> 
+</div>
+
+<div class="footer-section">
+					<div class="container">
+						<div class="footer-left">
+							<p>    Copyright © 靓妆.Company name All rights reserved.</p>
+						</div>
+							<div class="bottom-menu">
+								<ul>
+								<li><a href="{:U('Home/index/index')}" class="active"><span data-hover="首页">首页</span></a></li>
+					<li><a href="{:U('Home/pp/product')}"><span data-hover="产品介绍">产品介绍</span></a></li>
+					<li><a href="{:U('Home/video/video')}"><span data-hover="视频教学">视频教学</span></a></li>
+					<li><a href="{:U('Home/sce/services')}"><span data-hover="美妆点评">美妆点评</span></a></li>
+					<li><a href="{:U('Home/zc/zcao')}"><span data-hover="种草">种草</span></a></li>
+				
+								</ul>
+							</div>
+							<div class="clearfix"></div>
+							<script type="text/javascript">
+						$(document).ready(function() {
+							/*
+							var defaults = {
+					  			containerID: 'toTop', // fading element id
+								containerHoverID: 'toTopHover', // fading element hover id
+								scrollSpeed: 1200,
+								easingType: 'linear' 
+					 		};
+							*/
+							
+							$().UItoTop({ easingType: 'easeOutQuart' });
+							
+						});
+					</script>
+				<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+				</div>				
+				</div>
+</body>
+</html>

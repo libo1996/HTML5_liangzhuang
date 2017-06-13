@@ -1,0 +1,95 @@
+<layout name="layoutadmin" />
+    <div class="main-wrap">
+
+        <div class="crumb-wrap">
+            <div class="crumb-list"><i class="icon-font"></i><a href="{:U('Admin/index/index')}">首页</a><span class="crumb-step">&gt;</span><a class="crumb-name" href="{:U('Admin/user/index')}">用户管理</a><span class="crumb-step">&gt;</span><span>编辑用户</span></div>
+        </div>
+        <div class="result-wrap">
+            <div class="result-content">
+                <form action="{:U('Admin/user/update')}" method="post" id="myform" name="myform" enctype="multipart/form-data">
+                    <table class="insert-tab" width="100%">
+                        <tbody>
+                            <tr>
+                                <th><i class="require-red">*</i>用户ID：</th>
+                                <td>
+                                    <input class="common-text required" id="name" name="uid" size="50" value="{$user.uid}" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><i class="require-red"></i>用户名字</th>
+                                <td>
+                                    <input class="common-text required" id="thumb" name="name" size="50" value="{$user.name}" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>头像：</th>
+                                <td><img src="__PUBLIC__/{$user.img}" width="300px" height="50px"/><input type="file" name="img"></td>
+                            </tr>
+                            <tr>
+                                <th><i class="require-red"></i>用户积分</th>
+                                <td>
+                                    <input class="common-text required" id="thumb" name="integral" size="50" value="{$user.integral}" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><i class="require-red"></i>密码</th>
+                                <td>
+                                    <input class="common-text required" id="thumb" name="pw" size="50" value="{$user.pw}" type="text">
+                                </td>
+                            </tr>
+                           <tr>
+                                <th><i class="require-red"></i>心愿</th>
+                                <td>
+                                    <input class="common-text required" id="thumb" name="xy-id" size="50" value="{$user.xy-id}" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><i class="require-red"></i>收藏</th>
+                                <td>
+                                    <input class="common-text required" id="thumb" name="sc-id" size="50" value="{$user.sc-id}" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><i class="require-red"></i>手机</th>
+                                <td>
+                                    <input class="common-text required" id="thumb" name="phone" size="50" value="{$user.phone}" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><i class="require-red"></i>VIP</th>
+                                <td>
+                                    <input class="common-text required" id="thumb" name="vip" size="50" value="{$user.vip}" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><i class="require-red"></i>邮箱</th>
+                                <td>
+                                    <input class="common-text required" id="thumb" name="email" size="50" value="{$user.email}" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><i class="require-red"></i>性别</th>
+                                <td>
+                                    <input class="common-text required" id="thumb" name="sex" size="50" value="{$user.sex}" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><i class="require-red"></i>生日</th>
+                                <td>
+                                    <input class="common-text required" id="thumb" name="birthday" size="50" value="{$user.birthday}" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th></th>
+                                <td>
+                                    <input class="btn btn-primary btn6 mr10" value="提交" type="submit">
+                                    <input class="btn btn6" onclick="history.go(-1)" value="返回" type="button">
+                                </td>
+                            </tr>
+                        </tbody></table>
+                </form>
+            </div>
+        </div>
+
+    </div>
+   

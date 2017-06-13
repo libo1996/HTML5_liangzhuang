@@ -1,0 +1,85 @@
+<layout name="layoutadmin" />
+    <div class="main-wrap">
+
+        <div class="crumb-wrap">
+            <div class="crumb-list"><i class="icon-font"></i><a href="{:U('Admin/index/index')}">首页</a><span class="crumb-step">&gt;</span><a class="crumb-name" href="{:U('Admin/sce/index')}">文章管理</a><span class="crumb-step">&gt;</span><span>新增文章</span></div>
+        </div>
+        <div class="result-wrap">
+            <div class="result-content">
+                <form action="{:U('Admin/sce/store')}" method="post" id="myform" name="myform" enctype="multipart/form-data">
+                    <table class="insert-tab" width="100%">
+                        <tbody><tr>
+                                <th><i class="require-red"></i>文章标题</th>
+                                <td>
+                                    <input class="common-text required" id="thumb" name="name" size="50" value="" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><i class="require-red"></i>时间</th>
+                                <td>
+                                    <input class="common-text required" id="thumb" name="date" size="50" value="" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><i class="require-red"></i>文章介绍</th>
+                                <td>
+                                    <input class="common-text required" id="thumb" name="introduce" size="50" value="" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>图片：</th>
+                                <td><input type="file" name="img"></td>
+                            </tr>
+                            <tr>
+                                <th>图片1：</th>
+                                <td><input type="file" name="s1-img"></td>
+                            </tr>
+                            <tr>
+                                <th><i class="require-red"></i>介绍1</th>
+                                <td>
+                                    <input class="common-text required" id="thumb" name="s1-content" size="50" value="" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>图片2：</th>
+                                <td><input type="file" name="s2-img"></td>
+                            </tr>
+                            <tr>
+                                <th><i class="require-red"></i>介绍2</th>
+                                <td>
+                                    <input class="common-text required" id="thumb" name="s2-content" size="50" value="" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>图片3：</th>
+                                <td><input type="file" name="s3-img"></td>
+                            </tr>
+                            <tr>
+                                <th><i class="require-red"></i>介绍3</th>
+                                <td>
+                                    <input class="common-text required" id="thumb" name="s3-content" size="50" value="" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><i class="require-red"></i>作者</th>
+                                <td>
+                                    <input class="common-text required" id="thumb" name="author" size="50" value="" type="text">
+                                </td>
+                            </tr>
+                           
+                            
+                               
+                            <tr>
+                                <th></th>
+                                <td>
+                                    <input class="btn btn-primary btn6 mr10" value="提交" type="submit">
+                                    <input class="btn btn6" onclick="history.go(-1)" value="返回" type="button">
+                                </td>
+                            </tr>
+                        </tbody></table>
+                </form>
+            </div>
+        </div>
+
+    </div>
+   

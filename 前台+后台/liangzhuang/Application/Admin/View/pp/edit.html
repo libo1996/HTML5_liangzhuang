@@ -1,0 +1,111 @@
+<layout name="layoutadmin" />
+    <div class="main-wrap">
+
+        <div class="crumb-wrap">
+            <div class="crumb-list"><i class="icon-font"></i><a href="{:U('Admin/index/index')}">首页</a><span class="crumb-step">&gt;</span><a class="crumb-name" href="{:U('Admin/pp/index')}">产品管理</a><span class="crumb-step">&gt;</span><span>编辑产品</span></div>
+        </div>
+        <div class="result-wrap">
+            <div class="result-content">
+                <form action="{:U('Admin/pp/update')}" method="post" id="myform" name="myform" enctype="multipart/form-data">
+                    <table class="insert-tab" width="100%">
+                        <tbody>
+                            <tr>
+                                <th><i class="require-red">*</i>产品ID：</th>
+                                <td>
+                                    <input class="common-text required" id="name" name="pid" size="50" value="{$pp.pid}" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><i class="require-red"></i>产品名字</th>
+                                <td>
+                                    <input class="common-text required" id="thumb" name="name" size="50" value="{$pp.name}" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                               <th><i class="require-red"></i>产品品牌</th>
+                                <td>
+                                    <input class="common-text required" id="thumb" name="brand" size="50" value="{$pp.brand}" type="text">
+                                </td>
+                            </tr>
+                             <tr>
+                               <th><i class="require-red"></i>产品功效</th>
+                                <td>
+                                    <input class="common-text required" id="thumb" name="effect" size="50" value="{$pp.effect}" type="text">
+                                </td>
+                            </tr>
+                             <tr>
+                               <th><i class="require-red"></i>适用人群</th>
+                                <td>
+                                    <input class="common-text required" id="thumb" name="fit-people" size="50" value="{$pp.fit-people}" type="text">
+                                </td>
+                            </tr>
+                             <tr>
+                               <th><i class="require-red"></i>产品容量</th>
+                                <td>
+                                    <input class="common-text required" id="thumb" name="volume" size="50" value="{$pp.volume}" type="text">
+                                </td>
+                            </tr>
+                             <tr>
+                               <th><i class="require-red"></i>产品保质期</th>
+                                <td>
+                                    <input class="common-text required" id="thumb" name="time" size="50" value="{$pp.time}" type="text">
+                                </td>
+                            </tr>
+                             <tr>
+                               <th><i class="require-red"></i>产品色号</th>
+                                <td>
+                                    <input class="common-text required" id="thumb" name="color" size="50" value="{$pp.color}" type="text">
+                                </td>
+                            </tr>
+                             <tr>
+                               <th><i class="require-red"></i>产品原产国</th>
+                                <td>
+                                    <input class="common-text required" id="thumb" name="country" size="50" value="{$pp.country}" type="text">
+                                </td>
+                            </tr>
+                             <tr>
+                               <th><i class="require-red"></i>产品说明</th>
+                                <td>
+                                    <input class="common-text required" id="thumb" name="explain" size="50" value="{$pp.explain}" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                               <th><i class="require-red"></i>种类</th>
+                                <td>
+                                    <input class="common-text required" id="thumb" name="b_kind" size="50" value="{$pp.b_kind}" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                               <th><i class="require-red"></i>具体种类</th>
+                                <td>
+                                    <input class="common-text required" id="thumb" name="s_kind" size="50" value="{$pp.s_kind}" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>图片1：</th>
+                                <td><img src="__PUBLIC__/{$pp.img1}" width="300px" height="50px"/><input type="file" name="img1"></td>
+                            </tr>
+
+                            <tr>
+                                <th>图片2：</th>
+                                <td><img src="__PUBLIC__/{$pp.img2}" width="300px" height="50px"/><input type="file" name="img2"></td>
+                            </tr>
+                            <tr>
+                                <th>图片3：</th>
+                                <td><img src="__PUBLIC__/{$pp.img3}" width="300px" height="50px"/><input type="file" name="img3"></td>
+                            </tr>
+                            
+                            <tr>
+                                <th></th>
+                                <td>
+                                    <input class="btn btn-primary btn6 mr10" value="提交" type="submit">
+                                    <input class="btn btn6" onclick="history.go(-1)" value="返回" type="button">
+                                </td>
+                            </tr>
+                        </tbody></table>
+                </form>
+            </div>
+        </div>
+
+    </div>
+   

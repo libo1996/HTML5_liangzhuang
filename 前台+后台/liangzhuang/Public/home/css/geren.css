@@ -1,0 +1,187 @@
+#img span{
+   color:#0E0A12;
+   margin-left: 10px;
+   font-size: 15px;
+}
+#img p{
+   color:#0E0A12;
+   margin-left: 10px;
+   font-size: 15px;
+}
+#btn{
+	display: float;
+	float:right;
+	width:200px;
+	margin-top: 70px;
+
+}
+.cp p{
+font-size: 15px;
+}
+.cp{
+  color: #0E0A12;
+}
+#c1{
+  border: 1px solid #0E0A12;
+  width: 600px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+#TabMain {
+
+    width: 800px;
+
+    height: 1000px;
+
+    margin: 0 auto;
+
+    margin-top: 100px;
+
+}
+
+.tabItemContainer {
+
+    width: 100px;
+
+    height: 500px;
+
+    float: left;
+
+}
+
+.tabBodyContainer {
+
+    width: 677px;
+
+    height: 1000px;
+
+    float: left;
+
+    background-color: #fff;
+
+    border: 1px solid #ccc;
+
+    -webkit-border-radius: 0 5px 5px 0;
+
+    -moz-border-radius: 0 5px 5px 0;
+
+    border-radius: 0 5px 5px 0;
+
+    margin-left: 1px;
+
+}
+
+.tabItemContainer>li {
+
+    list-style: none;
+
+    text-align: center;
+
+}
+
+.tabItemContainer>li>a {
+
+    float: left;
+
+    width: 100%;
+
+    padding: 30px 0 30px 0;
+
+    font: 16px "微软雅黑", Arial, Helvetica, sans-serif;
+
+    color: #808080;
+
+    cursor: pointer;
+
+    text-decoration: none;
+
+    border:1px solid transparent;
+
+}
+
+.tabItemCurrent {
+
+    background-color: #fff;
+
+    border: 1px solid #ccc !important;
+
+    border-right: 1px solid #fff !important;
+
+    position: relative;
+
+    -webkit-border-radius: 5px 0 0 5px;
+
+    -moz-border-radius: 5px 0 0 5px;
+
+    border-radius: 5px 0 0 5px;
+
+}
+
+.tabItemContainer>li>a:hover {
+
+    color: #333;
+
+}
+
+.tabBodyItem {
+
+    position: absolute;
+
+    width: 677px;
+
+    height: 500px;
+
+    display: none;
+
+}
+
+.tabBodyItem>p {
+
+    font: 13px "微软雅黑", Arial, Helvetica, sans-serif;
+
+    text-align: center;
+
+    margin-top: 30px;
+
+}
+
+.tabBodyItem>p>a {
+
+    text-decoration: none;
+
+    color: #0F3;
+
+}
+
+.tabBodyCurrent{
+
+    display:block;
+
+}
+#m1{
+  margin-top: 20px;
+}
+
+
+#text{
+  margin-left: 40px;
+  margin-top: 20px;
+}
+.t1 td,th{
+  border: 1px solid ;
+  font-size: 20px;
+  width: 200px;
+  text-align: center;   
+}
+#t1{
+  margin-left: 20px;
+}
+.t1 th{
+  text-align: center;   
+}
+#we{
+  display:none;
+}
+#we1{
+  display:none;
+}

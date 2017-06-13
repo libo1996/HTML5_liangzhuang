@@ -1,0 +1,454 @@
+[ 2016-12-26T13:57:53+08:00 ] 127.0.0.1 /weiju2/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.092415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.028807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.028953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.058816s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.058993s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.552435s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.552578s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.089814s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.089986s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.043268s ]
+INFO: [ app_end ] --END-- [ RunTime:0.043494s ]
+
+[ 2016-12-26T13:58:33+08:00 ] 127.0.0.1 /weiju2/index.php/Home/yaoqu/content/sigid/12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001713s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003980s ]
+SQL: SHOW COLUMNS FROM `sight` [ RunTime:1.6531s ]
+SQL: SELECT * FROM `sight` WHERE ( sigid=12 ) LIMIT 1   [ RunTime:0.1474s ]
+SQL: SHOW COLUMNS FROM `hotel` [ RunTime:0.8530s ]
+SQL: SELECT * FROM `hotel`  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `food` [ RunTime:0.4535s ]
+SQL: SELECT * FROM `food`  [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000495s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000825s ]
+NOTIC: [8] Undefined variable: vo F:\websever\soft\weiju2\Application\Runtime\Cache\Home\a83635084e6bc66973f017b9203709d8.php 第 339 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.517585s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.517739s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004039s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004279s ]
+
+[ 2016-12-26T13:58:35+08:00 ] 127.0.0.1 /weiju2/index.php/Home/yaoqu/content/sigid/12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001912s ]
+SQL: SHOW COLUMNS FROM `sight` [ RunTime:0.1479s ]
+SQL: SELECT * FROM `sight` WHERE ( sigid=12 ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hotel` [ RunTime:0.0972s ]
+SQL: SELECT * FROM `hotel`  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `food` [ RunTime:0.1126s ]
+SQL: SELECT * FROM `food`  [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000483s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000961s ]
+NOTIC: [8] Undefined variable: vo F:\websever\soft\weiju2\Application\Runtime\Cache\Home\a83635084e6bc66973f017b9203709d8.php 第 339 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.189967s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.190567s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004306s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004516s ]
+
+[ 2016-12-26T13:58:35+08:00 ] 127.0.0.1 /weiju2/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002737s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000852s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001211s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069041s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069233s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004056s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004175s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001834s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002007s ]
+
+[ 2016-12-26T13:59:15+08:00 ] 127.0.0.1 /weiju2/index.php/Home/yaoqu/yaoqudedifang
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000722s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001428s ]
+SQL: SHOW COLUMNS FROM `state` [ RunTime:0.5835s ]
+SQL: SELECT * FROM `state`  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `sight` [ RunTime:0.0797s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sight` LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `sight` WHERE ( state='新南威尔士州' )  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000242s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000339s ]
+NOTIC: [8] Undefined index: state_id F:\websever\soft\weiju2\Application\Runtime\Cache\Home\49347a9d09ff4adbc0af93cdc11abc8f.php 第 396 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.221294s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.221398s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000715s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000792s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001860s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002025s ]
+
+[ 2016-12-26T14:05:48+08:00 ] 127.0.0.1 /weiju2/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001939s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000291s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000402s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.118830s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.118999s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.014555s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014693s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010671s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010837s ]
+
+[ 2016-12-26T14:35:18+08:00 ] 127.0.0.1 /weiju2/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.095146s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.029744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.029864s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000343s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000443s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.451187s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.451377s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.036550s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.036756s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.045695s ]
+INFO: [ app_end ] --END-- [ RunTime:0.045901s ]
+
+[ 2016-12-26T14:46:54+08:00 ] 127.0.0.1 /weiju2/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.049186s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.030804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.030961s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000276s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000378s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.086046s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.086178s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.013471s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013564s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.032878s ]
+INFO: [ app_end ] --END-- [ RunTime:0.032991s ]
+
+[ 2016-12-26T14:49:00+08:00 ] 127.0.0.1 /weiju2/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.050894s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.102926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.103131s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000673s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000855s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.291861s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.292008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.087514s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.087627s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.133203s ]
+INFO: [ app_end ] --END-- [ RunTime:0.133373s ]
+
+[ 2016-12-26T14:49:25+08:00 ] 127.0.0.1 /weiju2/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000933s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001589s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000273s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000375s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039260s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039378s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000766s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000840s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001277s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001387s ]
+
+[ 2016-12-26T14:51:08+08:00 ] 127.0.0.1 /weiju2/index.php/Home/yaoqu/content/sigid/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003826s ]
+SQL: SHOW COLUMNS FROM `sight` [ RunTime:0.0672s ]
+SQL: SELECT * FROM `sight` WHERE ( sigid=4 ) LIMIT 1   [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `hotel` [ RunTime:0.0772s ]
+SQL: SELECT * FROM `hotel`  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `food` [ RunTime:0.0403s ]
+SQL: SELECT * FROM `food`  [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000249s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000355s ]
+NOTIC: [8] Undefined variable: vo F:\websever\soft\weiju2\Application\Runtime\Cache\Home\a83635084e6bc66973f017b9203709d8.php 第 339 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.145252s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.145424s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001756s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001869s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001982s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002112s ]
+
+[ 2016-12-26T14:51:20+08:00 ] 127.0.0.1 /weiju2/index.php/Home/xingcheng/xingcheng
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001988s ]
+SQL: SHOW COLUMNS FROM `strategy` [ RunTime:0.1328s ]
+SQL: SELECT * FROM `strategy`  [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `stra` [ RunTime:0.1148s ]
+SQL: SELECT * FROM `stra`  [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000334s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000461s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.131047s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.131160s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001409s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001491s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001896s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002031s ]
+
+[ 2016-12-26T15:04:57+08:00 ] 127.0.0.1 /weiju2/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001885s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003072s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000276s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000380s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.414702s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.414880s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008901s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009049s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004395s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004517s ]
+
+[ 2016-12-26T15:06:33+08:00 ] 127.0.0.1 /weiju2/index.php/Home/yaoqu/yaoqudedifang
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002151s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004347s ]
+SQL: SHOW COLUMNS FROM `state` [ RunTime:0.0299s ]
+SQL: SELECT * FROM `state`  [ RunTime:0.0519s ]
+SQL: SHOW COLUMNS FROM `sight` [ RunTime:0.0321s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sight` LIMIT 1   [ RunTime:0.0877s ]
+SQL: SELECT * FROM `sight` WHERE ( state='新南威尔士州' )  [ RunTime:0.0073s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000418s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000581s ]
+NOTIC: [8] Undefined index: state_id F:\websever\soft\weiju2\Application\Runtime\Cache\Home\49347a9d09ff4adbc0af93cdc11abc8f.php 第 396 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.113145s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.113272s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001649s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001740s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002499s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002659s ]
+
+[ 2016-12-26T15:06:42+08:00 ] 127.0.0.1 /weiju2/index.php/Home/yaoqu/content/sigid/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000994s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002062s ]
+SQL: SHOW COLUMNS FROM `sight` [ RunTime:0.2685s ]
+SQL: SELECT * FROM `sight` WHERE ( sigid=3 ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `hotel` [ RunTime:0.1825s ]
+SQL: SELECT * FROM `hotel`  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `food` [ RunTime:0.1971s ]
+SQL: SELECT * FROM `food`  [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002290s ]
+NOTIC: [8] Undefined variable: vo F:\websever\soft\weiju2\Application\Runtime\Cache\Home\a83635084e6bc66973f017b9203709d8.php 第 339 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.401746s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.401855s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001497s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001577s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004703s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005397s ]
+
+[ 2016-12-26T15:08:49+08:00 ] 127.0.0.1 /weiju2/index.php/Home/zhuna/zhunali
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001905s ]
+SQL: SHOW COLUMNS FROM `hotel` [ RunTime:0.1235s ]
+SQL: SELECT * FROM `hotel`  [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000248s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000371s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.161325s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.161466s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002316s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002520s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001868s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002013s ]
+
+[ 2016-12-26T15:16:13+08:00 ] 127.0.0.1 /weiju2/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.082955s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007672s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000282s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000383s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.248716s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.248871s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.636320s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.636532s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.042841s ]
+INFO: [ app_end ] --END-- [ RunTime:0.043087s ]
+
+[ 2016-12-26T15:16:33+08:00 ] 127.0.0.1 /weiju2/index.php/Home/xingcheng/xingcheng
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002671s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001297s ]
+SQL: SHOW COLUMNS FROM `strategy` [ RunTime:0.0421s ]
+SQL: SELECT * FROM `strategy`  [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `stra` [ RunTime:0.0546s ]
+SQL: SELECT * FROM `stra`  [ RunTime:0.0026s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000339s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000494s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.226600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.226764s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001918s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002025s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003167s ]
+
+[ 2016-12-26T15:19:37+08:00 ] 127.0.0.1 /weiju2/index.php/Home/yaoqu/yaoqudedifang
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003447s ]
+SQL: SHOW COLUMNS FROM `state` [ RunTime:0.0269s ]
+SQL: SELECT * FROM `state`  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sight` [ RunTime:0.0317s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sight` LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `sight` WHERE ( state='新南威尔士州' )  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000371s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000506s ]
+NOTIC: [8] Undefined index: state_id F:\websever\soft\weiju2\Application\Runtime\Cache\Home\49347a9d09ff4adbc0af93cdc11abc8f.php 第 396 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.243268s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.243440s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012105s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012214s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.019671s ]
+INFO: [ app_end ] --END-- [ RunTime:0.019818s ]
+
+[ 2016-12-26T16:44:41+08:00 ] 127.0.0.1 /weiju2/index.php/Home/xingcheng/xingcheng_content/sid/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002938s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003417s ]
+SQL: SHOW COLUMNS FROM `strategy` [ RunTime:0.0681s ]
+SQL: SELECT * FROM `strategy` LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `stra` [ RunTime:0.0288s ]
+SQL: SELECT * FROM `stra`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000304s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000399s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.419123s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.419241s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012193s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.032732s ]
+INFO: [ app_end ] --END-- [ RunTime:0.032859s ]
+

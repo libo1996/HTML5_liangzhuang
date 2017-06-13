@@ -1,0 +1,70 @@
+[ 2017-02-06T20:05:45+08:00 ] 127.0.0.1 /weiju2/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001813s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006225s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000386s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000525s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.310052s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.310347s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004416s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004628s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010170s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010384s ]
+
+[ 2017-02-06T20:06:06+08:00 ] 127.0.0.1 /weiju2/index.php/Home/siji/sijituijian
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002666s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005968s ]
+SQL: SHOW COLUMNS FROM `sight` [ RunTime:0.3308s ]
+NOTIC: [8] Undefined index: sigid F:\websever\soft\weiju2\Application\Home\Controller\SijiController.class.php 第 7 行.
+SQL: SELECT * FROM `sight` WHERE `season` LIKE '%春%'  [ RunTime:0.4357s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000362s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000539s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.341156s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.341440s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001783s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001894s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005121s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005401s ]
+
+[ 2017-02-06T20:06:13+08:00 ] 127.0.0.1 /weiju2/index.php/Home/yaoqu/content/sigid/12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001939s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003359s ]
+SQL: SHOW COLUMNS FROM `sight` [ RunTime:0.0706s ]
+SQL: SELECT * FROM `sight` WHERE ( sigid=12 ) LIMIT 1   [ RunTime:0.0621s ]
+SQL: SHOW COLUMNS FROM `hotel` [ RunTime:0.1197s ]
+SQL: SELECT * FROM `hotel`  [ RunTime:0.0313s ]
+SQL: SHOW COLUMNS FROM `food` [ RunTime:0.0943s ]
+SQL: SELECT * FROM `food`  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000556s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000756s ]
+NOTIC: [8] Undefined variable: vo F:\websever\soft\weiju2\Application\Runtime\Cache\Home\a83635084e6bc66973f017b9203709d8.php 第 339 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.472014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.472254s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004470s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004694s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005775s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006025s ]
+

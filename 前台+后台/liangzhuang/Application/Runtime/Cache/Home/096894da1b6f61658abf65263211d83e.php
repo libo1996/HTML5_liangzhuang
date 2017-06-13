@@ -1,0 +1,607 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>住哪里</title>
+        <link type="image/x-icon" rel="icon" href="/weiju1/Public/home/images/bitbug_favicon.ico" media="screen" />
+        <!--头部导航轮播图-->
+        <script type="text/javascript" src="/weiju1/Public/home/js/jquery-1.8.3.min.js"></script>
+        <script type="text/javascript" src="/weiju1/Public/home/js/jquery.mousewheel.min.js"></script>
+        <script type="text/javascript" src="/weiju1/Public/home/js/main.js"></script>
+        <script type="text/javascript" src="/weiju1/Public/home/js/index.js"></script>
+        <link rel="stylesheet" href="/weiju1/Public/home/css/main.css">
+        <link rel="stylesheet" type="text/css" href="/weiju1/Public/home/css/style4.css">
+        <!--界面和面包屑-->
+        <link rel="stylesheet" href="/weiju1/Public/home/css/style.css">
+        <link rel="stylesheet" href="/weiju1/Public/home/css/zhunali_c.css">
+        <!--尾部样式-->
+        <link href="/weiju1/Public/home/css/footer.css" rel="stylesheet" type="text/css">
+         <link  rel="stylesheet" href="/weiju1/Public/home/css/main1.css" />
+        <link rel="stylesheet" type="text/css" href="/weiju1/Public/home/css/sinaFaceAndEffec.css" /> 
+        <script type="text/javascript" src="/weiju1/Public/home/js/main.js"></script>
+        <script type="text/javascript" src="/weiju1/Public/home/js/sinaFaceAndEffec.js"></script>
+        <style type="text/css">
+            #btn1 {
+    background-color:gray;
+    padding:5px;
+    position:relative;
+    font-family: 'Open Sans', sans-serif;
+    font-size:3px;
+    text-decoration:none;
+    color:#fff;
+    border: solid 1px #831212;
+    background-image: linear-gradient(bottom, rgb(171,27,27) 0%, rgb(212,51,51) 100%);
+    border-radius: 5px;
+}
+
+#btn1 :active {
+    padding-bottom:9px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:11px;
+    top:1px;
+    background-image: linear-gradient(bottom, rgb(171,27,27) 100%, rgb(212,51,51) 0%);
+}
+        </style>
+</head>
+<body>
+  <!-- 导航栏 -->
+   <section class="banner" role="banner">
+      <header id="header">
+        <div class="header-content clearfix"> 
+          <a class="logo" href="<?php echo U('Home/index/index');?>"><img src="/weiju1/Public/home/images/u146.gif" width="98px" height="70px" id="logowj"></a>
+          <nav class="navigation" role="navigation">
+            <div class="headernav">
+                <ul class="primary-nav">
+                  <li>
+                                <a href="<?php echo U('Home/index/index');?>" title="首页" class="index" >首页</a>
+                            </li>
+                            <li id="ejdh1">
+                                <a href="<?php echo U('Home/yaoqu/yaoqudedifang');?>" title="要去的地方" class="ejdh1">要去的地方</a>
+                                <ul id="ejdhlist1">
+                                    <li><a href="<?php echo U('Home/yaoqu/content');?>">新南威尔士州</a></li>
+                                    <li><a href="<?php echo U('Home/yaoqu/content');?>">昆士兰</a></li>
+                                    <li><a href="<?php echo U('Home/yaoqu/content');?>">维多利亚州</a></li>
+                                    <li><a href="<?php echo U('Home/yaoqu/content');?>">北领地</a></li>
+                                    <li><a href="<?php echo U('Home/yaoqu/content');?>">南澳大利亚</a></li>
+                                    <li><a href="<?php echo U('Home/yaoqu/content');?>">西澳大利亚</a></li>
+                                </ul>
+                            </li>
+                            <li id="ejdh2">
+                                <a href="<?php echo U('Home/siji/sijituijian');?>" title="四季推荐" class="ejdh2">四季推荐</a>
+                                <ul id="ejdhlist2">
+                                    <li><a href="<?php echo U('Home/siji/sijituijian');?>">春</a></li>
+                                    <li><a href="<?php echo U('Home/siji/sijituijian');?>">夏</a></li>
+                                    <li><a href="<?php echo U('Home/siji/sijituijian');?>">秋</a></li>
+                                    <li><a href="<?php echo U('Home/siji/sijituijian');?>">冬</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="<?php echo U('Home/xingcheng/xingcheng');?>" title="行程推荐">行程推荐</a>
+                            </li>
+                            <li id="ejdh3">
+                                <a href="<?php echo U('Home/zhuyi/zhuyishixiang');?>" title="注意事项" class="ejdh3">注意事项</a>
+                                <ul id="ejdhlist3">
+                                    <li><a href="<?php echo U('Home/zhuyi/zhuyishixiang');?>">货币</a></li>
+                                    <li><a href="<?php echo U('Home/zhuyi/zhuyishixiang');?>">时区</a></li>
+                                    <li><a href="<?php echo U('Home/zhuyi/zhuyishixiang');?>">交通</a></li>
+                                    <li><a href="<?php echo U('Home/zhuyi/zhuyishixiang');?>">签证</a></li>
+                                    <li><a href="<?php echo U('Home/zhuyi/zhuyishixiang');?>">旅游贴士</a></li>
+                                    <li><a href="<?php echo U('Home/zhuyi/zhuyishixiang');?>">健康安全</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="<?php echo U('Home/zhuna/zhunali');?>" title="住哪里">住哪里</a>
+                            </li>
+                            <li><a href="<?php echo U('Home/liuxue/student');?>" title="留学生导游">留学生导游</a></li>
+                </ul>
+            </div>
+            <div class="rheader">
+                <div class="dlzc">
+                    <ul>    
+                        <li><a href="javascript:void(0)" title="登录" onclick="login()">登录</a></li>
+                        <li>|</li>
+                        <li><a href="javascript:void(0)" title="注册" onclick="register1()" title="注册">注册</a></li>
+                    </ul>
+                </div>
+                <div class="search">
+                    <a href="javascript:void(0)" onclick="search1()"><img src="/weiju1/Public/home/images/u127.jpg" width="20px" height="20px" /></a>
+                </div>
+            </div>
+        </div>
+          </nav>
+          <a href="#" class="nav-toggle">Menu<span></span></a>
+        </div>
+        </header>
+        <div class="search1">
+                <div id="searchform">
+                    <input type="text-align" name="" style="display: none;">
+                </div>
+            </div>
+            <div class="search2" id="search2" style="display: none;">
+                <div class="searchz">
+                    <h6 class="searchztb">
+                        <a href="javascript:void(0)" onmouseover="searchqh1()" style="font-weight: bold;" id="searchztb1">新南威尔士州</a>
+                        <a href="#" onmouseover="searchqh2()" id="searchztb2">昆士兰</a>
+                        <a href="#">维多利亚州</a>
+                        <a href="#">北领地</a>
+                        <a href="#">南澳大利亚</a>
+                        <a href="#">西澳大利亚</a>
+                    </h6>
+                </div>
+                <a href="javascript:void(0);" class="searchgb" id="search2_2"></a>
+                <div class="searchcs" id="searchcslist">
+                    <table class="searchcs1" id="searchcs1">
+                        <tr>
+                            <td><a href="#">悉尼</a></td>
+                            <td><a href="#">卧龙岗</a></td>
+                            <td><a href="#">蓝山</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">纽卡斯尔</a></td>
+                            <td><a href="#">斯蒂芬斯港</a></td>
+                            <td><a href="#">卢拉镇</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">布罗肯希尔</a></td>
+                            <td><a href="#">默威伦巴</a></td>
+                            <td><a href="#">利斯莫尔</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">库马</a></td>
+                            <td><a href="#">巴利纳</a></td>
+                            <td><a href="#">卡通巴</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">古尔本</a></td>
+                            <td><a href="#">楠巴卡黑兹</a></td>
+                            <td><a href="#">德尼利昆</a></td>
+                        </tr>
+                    </table>
+                    <table class="searchcs2" id="searchcs2">
+                        <tr>
+                            <td><a href="#">大堡礁</a></td>
+                            <td><a href="#">南岸公园</a></td>
+                            <td><a href="#">洛岛</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">海洋世界</a></td>
+                            <td><a href="#">袋鼠角</a></td>
+                            <td><a href="#">其瓦拉海滩</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">天堂农庄</a></td>
+                            <td><a href="#">库克敦</a></td>
+                            <td><a href="#">莫斯曼</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">萨瓦纳湾</a></td>
+                            <td><a href="#">奈利湾</a></td>
+                            <td><a href="#">惠森迪岛</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">昆士兰绿岛</a></td>
+                            <td><a href="#">水晶洞穴</a></td>
+                            <td><a href="#">云戈布拉</a></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+      
+
+      <!-- banner text --> 
+        <div class="banner" id="banner">
+            <label>
+          <ul class="cb-slideshow">
+                <li><span><img src="/weiju1/Public/home/images/1.jpg" width="100%" height="668px"></span><div><h3>邦迪海滩</h3></div></li>
+                <li><span><img src="/weiju1/Public/home/images/2.jpg" width="100%" height="668px"></span><div><h3>邦迪海滩</h3></div></li>
+                <li><span><img src="/weiju1/Public/home/images/3.jpg" width="100%" height="668px"></span><div><h3>邦迪海滩</h3></div></li>
+                <li><span><img src="/weiju1/Public/home/images/4.jpg" width="100%" height="668px"></span><div><h3>邦迪海滩</h3></div></li>
+                <li><span><img src="/weiju1/Public/home/images/5.jpg" width="100%" height="668px"></span><div><h3>邦迪海滩</h3></div></li>
+                <li><span><img src="/weiju1/Public/home/images/6.jpg" width="100%" height="668px"></span><div><h3>邦迪海滩</h3></div></li>
+            </ul>
+            </label> 
+        </div> 
+    </section>
+    <div id="light1" class="white_content1">
+            <a href="javascript:void(0)" onclick="close1()">
+                <img src="/weiju1/Public/home/images/03q58PICtSW_1024.png" width="18" height="24" id="imgclose">
+            </a>
+            <form method="post" id="signin1" action="index.html">
+                <h1>登录</h1>
+                <hr/>
+                <div>
+                    <label>
+                        <p>用户名</p>
+                        <p>
+                            <input id="USERNAMEDL" name="usernamedl" value="" title="usernamedl" tabindex="4" type="text" onfocus="showDesc(this)" onblur="checkText(this)" placeholder="您的用户名"> 
+                        </p>
+                        <span id="usernamedl"  class='tip'></span>
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        <p>密码</p>
+                        <p>
+                            <input id="PASSWORDDL" name="passworddl" value="" title="password" tabindex="5" type="password"  onfocus="showDesc(this)" onblur="checkText(this)" placeholder="您的密码">
+                        </p>
+                        <span id="passworddl"  class='tip'></span>
+                    </label>
+                </div>
+                <p class="remember">
+                    <label><input type="checkbox" name="自动登录" > 保存密码</label>        
+                    <a href=""></a>
+                </p>
+                <p class="logosub1">
+                    <input type="button" name="" value="立即登录">
+                </p>
+                <div>
+                    <p class="toregister">
+                        还没有账号？<a href="javascript:void(0)" onclick="register1()">点击这里注册</a>
+                    </p>
+                </div>
+            </form>
+        </div>
+        <div id="light2" class="white_content2">
+            <a href="javascript:void(0)" onclick="close2()">
+                <img src="/weiju1/Public/home/images/03q58PICtSW_1024.png" width="18" height="24" id="imgclose">
+            </a>
+            <form method="post" id="signin2" action="index.html">
+                <h1>注册</h1>
+                <hr/>
+                <div class="tregister">
+                    <div>
+                        <label>
+                            <p>用户名<span> *</span></p>
+                            <p>
+                                <input id="USERNAME" name="username" value="" title="username" tabindex="4" type="text" onfocus="showDesc(this)" onblur="checkText(this)" placeholder="请输入1~16位以内的英文、数字组合" class="inputpp"> 
+                            </p>
+                            <span id="username"  class='tip'></span>
+                        </label>
+                    </div>
+                    <div style="clear: left;" class="margintop">
+                        <label>
+                            <p>登录密码<span> *</span></p>
+                            <p>
+                                <input id="PASSWORD" name="password" value="" title="password" tabindex="5" type="password" onfocus="showDesc(this)" onblur="checkText(this)" placeholder="请输入6~16位以内的英文、数字组合" class="inputpp">
+                                <span id="password" class='tip'></span>
+                            </p>
+                        </label>
+                    </div>
+                    <div class="margintop">
+                        <label>
+                            <p>确认密码<span> *</span></p>
+                            <p>
+                                <input id="PASSWORD2" name="password2" value="" title="password" tabindex="5" type="password" onfocus="showDesc(this)" onblur="checkText(this)" placeholder="请再次输入密码" class="inputpp">
+                                <span id="password2"  class='tip'></span>
+                            </p>
+                        </label>
+                    </div>
+                    <div class="margintop">
+                        <label>
+                            <p>姓名</p>
+                            <p>
+                                <input id="IDname" name="IDname" value="" title="IDname" tabindex="5" type="text" placeholder="请输入您的真实姓名(选填)" class="inputpp">
+                            </p>
+                        </label>
+                    </div>
+                    <div class="sex">
+                        <p>性别</p>
+                        <p>
+                            <div class="nan"><input type="radio" name="sex" checked="checked"> 男</div>
+                            <div class="nv"><input type="radio" name="sex"> 女</div>
+                        </p>
+                    </div>
+                    <div class="margintop">
+                        <label>
+                            <p>国家/地区</p>
+                            <p>
+                                <div>
+                                    <input id="place" name="place" value="" title="place" tabindex="5" type="text" placeholder="请输入您所在的国家/地区(选填)" class="inputpp">
+                                </div>
+                            </p>
+                        </label>
+                    </div>
+                    <div class="IDtype">
+                            <p>用户类型<span> *</span></p>
+                            <p>
+                                <div class="tourist"><label><input type="radio" name="用户类型" checked="checked"> 游客</label></div>
+                                <div class="ciceroni"><label><input type="radio" name="用户类型" > 导游</label></div>
+                            </p>
+                    </div>
+                </div>
+                <div class="bregister">
+                    <div class="logosub2">
+                        <a href="javascript:void(0)"  onclick="login()"><input type="button" name="" value="完成注册" style="text-align: center;"></a>
+                    </div>
+                    <div>
+                        <p class="toregister">
+                            已拥有账户？<a href="javascript:void(0)" onclick="login()">点击这里登录</a>
+                        </p>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+  <!-- 面包屑 -->
+  <div class="content-header">
+                <div id="mbx">
+                    <ul id="breadcrumb">
+                        <li><a href="<?php echo U('Home/index/index');?>"><span class="icon icon-home"> </span>首页</a></li>
+                        <li><a href="<?php echo U('Home/zhuna/zhunali');?>"><span class="icon icon-beaker"> </span> 住哪里</a></li>
+                        <li><a href="<?php echo U('Home/zhuna/zhunali_content');?>"><span class="icon icon-beaker"> </span> windsor hotel</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <HR style="border:1 dashed #987cb9; margin-left:10%; margin-top:20px; margin-bottom:50px;" width="80%" color=#987cb9 SIZE=1>
+                </div>
+            </div>
+
+<!-- 内容 -->
+<div class="content1">
+  <h1 class="ch">windsor hotel</h1>
+  <!-- 轮播图 -->
+ 
+  <div class="c_left">
+    <ul class="pic">
+          <li><a href="javascript:;"><img src="/weiju1/Public/home/images/zc1.jpg" alt="pic1"></a></li>
+          <li><a href="javascript:;"><img src="/weiju1/Public/home/images/zc2.jpeg" alt="pic2"></a></li>
+          <li><a href="javascript:;"><img src="/weiju1/Public/home/images/zc1.jpg" alt="pic1"></a></li>
+          <li><a href="javascript:;"><img src="/weiju1/Public/home/images/zc2.jpeg" alt="pic2"></a></li>
+    </ul>
+  </div>
+  <!-- 表格 -->
+  <div class="c_right">
+    <table border="1px" cellspacing="0px">
+      <tr>
+        <td>景观</td>
+        <td>自然</td>
+      </tr>
+      <tr>
+        <td>主题</td>
+        <td>探险</td>
+      </tr>
+      <tr>
+        <td>风格</td>
+        <td>名家设计</td>
+      </tr>
+      <tr>
+        <td>卧室</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>浴室</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>可住人数</td>
+        <td>2人</td>
+      </tr>
+      <tr>
+        <td>服务</td>
+        <td>无线，停车场，餐饮等</td>
+      </tr>
+    </table>
+  </div>
+
+<div class="jianjie">
+  <h1>酒店简介</h1>
+  <div class="jianp">
+  <p>位于墨尔本市中心-商业区，地理位置优越，TheHotelWindsor是墨尔本短途游的理想出发点。在这里，旅客们可轻松前往市区内各大旅游、购物、餐饮地点。酒店的客人能在游览议会大楼、老财政大楼、市博物馆（在老库）等经典景点中愉悦身心。TheHotelWindsor一直致力于为您提供一流的设施与最尊贵的服务，确保您下榻期间愉快、惬意。为了给客人提供更舒适和更便利的服务，酒店配备了停车场、客房服务、洗衣服务/干洗、代客泊车、礼宾接待服务。TheHotelWindsor拥有180间客房，每间客房都装修考究，配有浴袍、空调、茶与咖啡冲泡设备、房内保险箱、液晶电视/等离子电视等顶级设备。除此之外，酒店各种娱乐设施一定会让您在留宿期间享受更多乐趣。TheHotelWindsor是来墨尔本旅游的最佳留宿酒店，为您提供一站式高品质服务。</p>
+</div>
+  <div class="t1">
+<table   border="1px" cellspacing="0px" class="table1">
+  <tr>
+    <td>免费服务</td>
+    <td>早餐 ，  机场接送，旅游咨询，客房服务，入住问候，酒精饮料 </td>
+  </tr>
+  <tr>
+    <td>收费服务</td>
+    <td>洗衣服务，按摩服务，成人加床，水疗服务</td>
+  </tr>
+  <tr>
+    <td>别墅设施</td>
+    <td>拖鞋，茶与咖啡设备</td>
+  </tr>
+  <tr>
+    <td>综合设施</td>
+    <td>徒步旅行，直升飞机观光</td>
+  </tr>
+  <tr>
+    <td>娱乐/活动设施</td>
+    <td>泳池，餐厅，吧台，户外用餐区，图书室</td>
+  </tr>
+  <tr>
+    <td>综合设施</td>
+    <td>泳池，餐厅，吧台，户外用餐区，图书室</td>
+  </tr>
+  <tr>
+    <td>综合设施</td>
+    <td>泳池，餐厅，吧台，户外用餐区，图书室</td>
+  </tr>
+  </table>
+</div>
+</div>
+</div>
+<!-- 旅客留言-->
+<div>
+  <div class="hh1">
+  <h1>旅客留言</h1>
+  </div>
+  <div class="line1">
+  <img src="/weiju1/Public/home/images/line.png">
+  </div>
+  <div id="content" style="width: 50%; height: auto;margin-left:20%;margin-top:5%">
+            <div class="wrap">
+                <div class="comment">
+                    <div class="head-face">
+                        <div><img src="/weiju1/Public/home/images/u32.png" / ></div>
+                        <div><p style="font-family:'微软雅黑'">好好</p></div>
+                    </div>
+                    <div class="content ">
+                            <p >哇，看起来很不错的样子，正有去澳大利亚玩的打算，很期待这次旅行</p></br>
+                            <div>
+                            <p style="font-size: 0.75rem; color:#3B3B3B; margin-top: 10px">2016年10月5日　<input type = "button" id="btn1" value="回复">　点赞1　转发0</p>
+                            </div>
+                            <div id="outdiv">                           
+                            </div>  
+                          <div>
+                            <div style="float:left;">
+                            <input type="tet" name="huifu" id="xx1" style="display:none">
+                            </div>
+                            <div style="float:left">
+                            <input type="button" name="huifu" id="btn3" value="回复" style="display:none" onclick="senddata()">
+                            </div>
+                            <div style="float:left">
+                            <input type="button" name="quxiao" id="btn2" value="取消" style="display:none">
+                            </div>
+                          </div>                        
+                    </div>
+                </div>  
+            </div>
+        </div>
+
+
+                            
+        
+        <div id="content" style="width: 50%;margin-left:20%;margin-top:100px">
+            <div class="wrap">
+                <div class="comment">
+                    <div class="head-face">
+                        <img src="/weiju1/Public/home/images/u35.png" / >
+                        <p>好好</p>
+                    </div>
+                    <div class="content ">
+                            <p>哇，看起来很不错的样子，正有去澳大利亚玩的打算，很期待这次旅行</p></br>
+                            <p style="font-size: 0.75rem; color:#3B3B3B; margin-top: 10px">2016年10月5日　<input type = "button" id="btn1" value="回复">　点赞1　转发0</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </div>
+  </div>
+  </div></div>
+<!-- footer -->
+<div class="footer">
+            <div class="footerjkgz">
+                <div class="footer1">
+                    <div><label>即刻关注：</label></div>
+                    <div><a href="#"><img src="/weiju1/Public/home/images/14515034.png" width="50px" height="45px"></a></div>
+                    <div class="footera"><a href="#">官方微博</a></div>
+                    <div><a href="#"><img src="/weiju1/Public/home/images/20161123213710.png" width="50px" height="45px"></a></div>
+                    <div class="footera"><a href="#">官方微信</a></div>
+                </div>
+                <div class="footer2">
+                    <div><label class="yqlj_">友情链接：</label></div>
+                    <div class="yqlj"><a href="http://www.cnta.com/" target="_blank">国家旅游局</a></div>
+                    <div class="yqlj"><a href="http://travel.people.com.cn/" target="_blank">人民网旅游</a></div>
+                    <div class="yqlj"><a href="http://travel.gmw.cn/index.htm" target="_blank">光明网旅游</a></div>
+                </div>
+            </div>
+            <div class="hr2">
+                <hr color="#E4E4E4" size=1 align=center noshade>
+            </div>
+            <div class="footerliebiao">
+                <div class="footerliebiao1">
+                    <div>
+                        <a href="<?php echo U('Home/yaoqu/yaoqudedifang');?>">要去的地方</a>
+                    </div>
+                    <hr color="#E4E4E4" size=1 align=center noshade class="hr3">
+                    <div>
+                        <ul>
+                            <li><a href="<?php echo U('Home/yaoqu/content');?>">新南威尔士州</a></li>
+                            <li><a href="<?php echo U('Home/yaoqu/content');?>">昆士兰</a></li>
+                            <li><a href="<?php echo U('Home/yaoqu/content');?>">维多利亚州</a></li>
+                            <li><a href="<?php echo U('Home/yaoqu/content');?>">北领地</a></li>
+                            <li><a href="<?php echo U('Home/yaoqu/content');?>">南澳大利亚</a></li>
+                            <li><a href="<?php echo U('Home/yaoqu/content');?>">西澳大利亚</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footerliebiao1">
+                    <div>
+                        <a href="<?php echo U('Home/siji/sijituijian');?>">四季推荐</a>
+                    </div>
+                    <hr color="#E4E4E4" size=1 align=center noshade class="hr3">
+                    <div>
+                        <ul>
+                            <li><a href="<?php echo U('Home/siji/sijituijian');?>">春</a></li>
+                            <li><a href="<?php echo U('Home/siji/sijituijian');?>">夏</a></li>
+                            <li><a href="<?php echo U('Home/siji/sijituijian');?>">秋</a></li>
+                            <li><a href="<?php echo U('Home/siji/sijituijian');?>">冬</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footerliebiao1">
+                    <div>
+                        <a href="<?php echo U('Home/xingcheng/xingcheng');?>">行程推荐</a>
+                    </div>
+                    <hr color="#E4E4E4" size=1 align=center noshade class="hr3">
+                    <div>
+                        <ul>
+                            <li><a href="<?php echo U('Home/xingcheng/xingcheng_content');?>">太平洋海岸自驾游</a></li>
+                            <li><a href="<?php echo U('Home/xingcheng/xingcheng_content');?>">太平洋海岸自驾游</a></li>
+                            <li><a href="<?php echo U('Home/xingcheng/xingcheng_content');?>">太平洋海岸自驾游</a></li>
+                            <li><a href="<?php echo U('Home/xingcheng/xingcheng_content');?>">太平洋海岸自驾游</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footerliebiao1">
+                    <div>
+                        <a href="<?php echo U('Home/zhuyi/zhuyishixiang');?>">注意事项</a>
+                    </div>
+                    <hr color="#E4E4E4" size=1 align=center noshade class="hr3">
+                    <div>
+                        <ul>
+                            <li><a href="<?php echo U('Home/zhuyi/zhuyishixiang');?>">货币</a></li>
+                            <li><a href="<?php echo U('Home/zhuyi/zhuyishixiang');?>">时区</a></li>
+                            <li><a href="<?php echo U('Home/zhuyi/zhuyishixiang');?>">交通</a></li>
+                            <li><a href="<?php echo U('Home/zhuyi/zhuyishixiang');?>">签证</a></li>
+                            <li><a href="<?php echo U('Home/zhuyi/zhuyishixiang');?>">旅游贴士</a></li>
+                            <li><a href="<?php echo U('Home/zhuyi/zhuyishixiang');?>">健康安全</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footerliebiao1">
+                    <div>
+                        <a href="<?php echo U('Home/zhuna/zhunali');?>">住哪里</a>
+                    </div>
+                    <hr color="#E4E4E4" size=1 align=center noshade class="hr3">
+                    <div>
+                        <ul>
+                            <li><a href="<?php echo U('Home/zhuna/zhunali_content');?>">windsor hotel</a></li>
+                            <li><a href="<?php echo U('Home/zhuna/zhunali_content');?>">Port O Call Motel</a></li>
+                            <li><a href="<?php echo U('Home/zhuna/zhunali_content');?>">Port 1 Call Motel</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footerliebiao1">
+                    <div>
+                        <a href="<?php echo U('Home/liuxue/student');?>">留学生导游</a>
+                    </div>
+                    <hr color="#E4E4E4" size=1 align=center noshade class="hr3">
+                    <div>
+                        <ul>
+                            <li><a href="<?php echo U('Home/liuxue/student1');?>">留学生导游信息</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footerqita">
+                <div class="footerbz">
+                    <a href="<?php echo U('Home/index/index');?>"><img src="/weiju1/Public/home/images/u146.gif" width="110px" height="90px"></a>
+                </div>
+                <div class="footerlxfs">
+                    <ul>
+                        <li>地址：河北师范大学新校区</li>
+                        <li>电子邮件：zmalqp246805@163.com</li>
+                        <li>版权所有：河北师范大学软件学院微距小组</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="fade" class="black_overlay"></div>
+</body>
+</html>

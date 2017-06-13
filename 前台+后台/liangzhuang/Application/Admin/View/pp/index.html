@@ -1,0 +1,77 @@
+<layout name="layoutadmin" />
+<style>
+  table{
+    table-layout:fixed;
+  }
+  td{
+width:100%;
+word-break:keep-all;/* 不换行 */
+white-space:nowrap;/* 不换行 */
+overflow:hidden;/* 内容超出宽度时隐藏超出部分的内容 */
+text-overflow:ellipsis;/* 当对象内文本溢出时显示省略标记(...) ；需与overflow:hidden;一 起使用。*/
+}
+
+</style>
+    <div class="main-wrap">
+
+        <div class="crumb-wrap">
+           <div class="crumb-list"><i class="icon-font"></i><a href="{:U('Admin/index/index')}">首页</a><span class="crumb-step">&gt;</span><a class="crumb-name" href="{:U('Admin/pp/index')}">产品管理</a></div>
+        </div>
+
+        <div class="result-wrap">
+            <form name="myform" id="myform" method="post">
+                <div class="result-content">
+                    <table class="result-tab" width="100%">
+                        <tr>
+                            <th class="tc" width="5%"><input class="allChoose" name="" type="checkbox"></th>
+                            
+                            <th>产品ID</th>
+                            <th>产品名字</th>
+                            <th>品牌</th>
+                            <th>功效</th>
+                            <th>适用人群</th>
+                            <th>容量</th>
+                            <th>保质期</th>
+                            <th>色号</th>
+                            <th>原产国家</th>
+                            <th>特别说明</th>
+                            <th>种类</th>
+                            <th>具体种类</th>
+                            <th>图片1</th>
+                            <th>图片2</th>
+                            <th>图片3</th>                        
+                            <th style="width:100px;">操作</th>
+                        </tr>
+
+                        
+                         <volist name="pp" id="vo">
+                        <tr>
+                            <td class="tc"><input name="id[]" value="{$vo.pid}" type="checkbox"></td>
+                            <td>{$vo.pid}</td>
+                            <td>{$vo.name}</td>
+                            <td>{$vo.brand}</td>
+                            <td>{$vo.effect}</td>
+                            <td>{$vo.fit-people}</td>
+                            <td>{$vo.volume}</td>
+                            <td>{$vo.time}</td>
+                            <td>{$vo.color}</td>
+                            <td>{$vo.country}</td>
+                            <td>{$vo.explain}</td>
+                            <td>{$vo.b_kind}</td>
+                            <td>{$vo.s_kind}</td>
+                            <td>{$vo.img1}</td>
+                            <td>{$vo.img2}</td>
+                            <td>{$vo.img3}</td>
+                           
+                            <td>
+                                <a class="link-update" href="{:U('Admin/pp/edit')}/pid/{$vo.pid}">修改</a>
+                                <a class="link-del" href="{:U('Admin/pp/destroy')}/pid/{$vo.pid}">删除</a>
+                            </td>
+                        </tr>
+                        </volist>
+                       
+                    </table>
+                </div>
+            </form>
+        </div>
+    </div>

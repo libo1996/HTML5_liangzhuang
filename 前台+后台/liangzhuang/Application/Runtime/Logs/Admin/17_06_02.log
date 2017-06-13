@@ -1,0 +1,20 @@
+[ 2017-06-02T11:54:21+08:00 ] 127.0.0.1 /liangzhuang/index.php/Admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.153856s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008429s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.020794s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.021013s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.637364s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.637510s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.059105s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.059219s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.036671s ]
+INFO: [ app_end ] --END-- [ RunTime:0.036882s ]
+

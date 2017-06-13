@@ -1,0 +1,576 @@
+<html>
+<head>
+<title>Product</title>
+<link href="__PUBLIC__/home/css/product.css" rel="stylesheet" type="text/css" media="all" />
+<link href="__PUBLIC__/home/css/style.css" rel="stylesheet" type="text/css" media="all" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="__PUBLIC__/home/js/jquery.js"></script>
+<script type="text/javascript" src="__PUBLIC__/home/js/bootstrap.min.js"></script>
+<link href="__PUBLIC__/home/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
+<link href="__PUBLIC__/home/css/jquery-ui.css" rel="stylesheet" type="text/css" media="all">
+<link href="__PUBLIC__/home/css/layoutit.css" rel="stylesheet" type="text/css" media="all">
+<link href="__PUBLIC__/home/css/main.css" rel="stylesheet" type="text/css" media="all">
+<script type="text/javascript" src="__PUBLIC__/home/js/product.js"></script>
+<script type="text/javascript" src="__PUBLIC__/home/js/jquery-ui.js"></script>
+<script>
+$(function() {
+    $( "#tabs" ).tabs({
+      collapsible: true
+    });
+  });
+</script>
+<style type="text/css">
+	#cpjs{
+		margin-top: 3%;
+	}
+	body{
+		background-color: rgb(255,255,237);
+	}
+	</style>
+</head>
+<body>
+<div class="header" id="home">
+	<div class="container">
+	   <div class="header-bottom">
+		<div class="logo">
+			<img src="__PUBLIC__/home/images/LOGO.png" width="60%">
+		</div>
+			<div class="top-menu">
+				<span class="menu"> </span>
+				<ul>
+					<nav class="cl-effect-5">
+					<li><a href="{:U('Home/index/index')}" ><span data-hover="首页">首页</span></a></li>
+					<li><a href="{:U('Home/pp/product')}" class="active"><span data-hover="产品介绍">产品介绍</span></a></li>
+					<li><a href="{:U('Home/video/video')}"><span data-hover="视频教学">视频教学</span></a></li>
+					<li><a href="{:U('Home/sce/services')}"><span data-hover="美妆点评">美妆点评</span></a></li>
+					<li><a href="{:U('Home/zc/zcao')}"><span data-hover="种草">种草</span></a></li>
+					</nav>
+				</ul>
+				</div>
+				 <!--script-nav-->
+		 <script>
+		 $("span.menu").click(function(){
+		 $(".top-menu ul").slideToggle("slow" , function(){
+		 });
+		 });
+		 </script>
+		
+		<div class="clearfix"></div>
+	</div>
+	</div>
+</div>
+<div class="container">
+	<div class="row clearfix1">
+		<div class="col-md-12 column">
+			<h3 class="text-center">
+				product presentation
+			</h3>
+			<h3 class="text-center">
+				产品介绍
+			</h3>
+		</div>
+	</div>
+		<div class="hc_lnav jslist">
+	<div class="allbtn">
+		<ul style="width:190px" class="jspop box">
+			<li class=a1>
+				<div class=tx><a href="{:U('Home/pp/productlist')}"><i>&nbsp;</i>护肤</a> </div>
+				<dl>
+					<dd>
+						<a href="{:U('Home/pp/pl_mianmo')}">面膜</a>
+						<a href="{:U('Home/pp/pl_jiemian')}">洁面</a>
+						<a href="{:U('Home/pp/pl_hauzhuangshui')}">化妆水</a>
+						<a href="{:U('Home/pp/productlist')}">精华</a>
+						<a href="{:U('Home/pp/productlist')}">眼部护理</a>
+						<a href="{:U('Home/pp/productlist')}">乳液</a>
+						<a href="{:U('Home/pp/productlist')}">唇部护理</a>
+						<a href="{:U('Home/pp/productlist')}">防晒</a>  
+					</dd>
+				</dl>
+				<div class=pop>
+					<h3><a href="{:U('Home/pp/productlist')}">彩妆</a></h3>
+					<dl>
+						<dl>
+							<dt>面膜</dt>
+							<dd>
+						<a class="ui-link"  href="{:U('Home/pp/product_content')}/pid/1">面膜贴</a>
+                        <a class="ui-link" href="{:U('Home/pp/product_content')}/pid/1">免洗面膜</a>
+                        <a class="ui-link" href="{:U('Home/pp/product_content')}/pid/1">水洗面膜</a>
+                        <a class="ui-link" href="{:U('Home/pp/product_content')}/pid/1">撕拉面膜</a>
+							</dd>
+						</dl>
+						<dl>
+							<dt>洁面</dt>
+							<dd>
+								<a class="ui-link" href="{:U('Home/pp/product_content')}/pid/1">洁面乳</a> 
+								<a class="ui-link"  href="{:U('Home/pp/product_content')}/pid/1">面部去角质</a>
+								<a class="ui-link" href="{:U('Home/pp/product_content')}/pid/1">洁面膏</a>
+								<a class="ui-link"  href="{:U('Home/pp/product_content')}/pid/1">洁面皂</a> 
+								<a class="ui-link" href="{:U('Home/pp/product_content')}/pid/1">洁面啫喱</a>
+								<a class="ui-link" href="{:U('Home/pp/product_content')}/pid/1">洁面摩丝</a>
+							</dd>
+						</dl>
+						<dl>
+							<dt>化妆水</dt>
+							<dd>
+								<a class="ui-link" href="{:U('Home/pp/product_content')}/pid/1" >爽肤水</a>
+								<a class="ui-link"  href="{:U('Home/pp/product_content')}/pid/1">收敛水</a>
+								<a class="ui-link"  href="{:U('Home/pp/product_content')}/pid/1">柔肤水</a>
+								<a class="ui-link"   href="{:U('Home/pp/product_content')}/pid/1">精华水</a>
+								<a class="ui-link" href="{:U('Home/pp/product_content')}/pid/1">喷雾</a>
+							</dd>
+						</dl>
+
+						<dl>
+							<dt>精华</dt>
+							<dd>
+								<a class="ui-link" href="{:U('Home/pp/product_content')}/pid/1">精华液</a> 
+								<a class="ui-link"  href="{:U('Home/pp/product_content')}/pid/1">精华乳</a> 
+								<a class="ui-link" href="{:U('Home/pp/product_content')}/pid/1">原液</a>
+								<a class="ui-link"  href="{:U('Home/pp/product_content')}/pid/1">肌底液</a>
+							</dd>
+						</dl>
+						<dl>
+							<dt>眼部护理</dt>
+							<dd>
+								<a class="ui-link" href="{:U('Home/pp/product_content')}/pid/1">眼霜</a>
+								<a class="ui-link"  href="{:U('Home/pp/product_content')}/pid/1">眼部精华</a> 
+								<a class="ui-link" href="{:U('Home/pp/product_content')}/pid/1">眼膜</a>
+								<a class="ui-link" href="{:U('Home/pp/product_content')}/pid/1">眼部凝胶</a>
+							</dd>
+						</dl>
+					</dl>
+					<dl>
+						<dt>乳液|面霜</dt>
+						<dd>
+							<a  href="{:U('Home/pp/product_content')}/pid/1">乳液</a>
+							<a  href="{:U('Home/pp/product_content')}/pid/1">面霜</a>
+							<a  href="{:U('Home/pp/product_content')}/pid/1">按摩霜</a>
+							<a  href="{:U('Home/pp/product_content')}/pid/1">面部啫喱</a>
+							<a  href="{:U('Home/pp/product_content')}/pid/1">凝露</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt>唇部护理</dt>
+						<dd>
+							<a  href="{:U('Home/pp/product_content')}/pid/1">唇膏</a> 
+							<a  href="{:U('Home/pp/product_content')}/pid/1">唇膜</a>
+							<a  href="{:U('Home/pp/product_content')}/pid/1">唇部精华</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt>防晒</dt>
+						<dd>
+							<a  href="{:U('Home/pp/product_content')}/pid/1" >防晒乳液</a> 
+							<a   href="{:U('Home/pp/product_content')}/pid/1">防晒霜</a> 
+							<a  href="{:U('Home/pp/product_content')}/pid/1">晒后修复</a> 
+						</dd>
+					</dl>
+					
+					
+				</div>
+			</li>
+			<li class="a2">
+				<div class=tx><a href="{:U('Home/pp/productlist')}"><i>&nbsp;</i>彩妆</a> </div>
+				<dl>
+					<dd>
+						<a href="{:U('Home/pp/productlist')}">卸妆</a>
+                        <a href="{:U('Home/pp/productlist')}">隔离</a>
+                        <a href="{:U('Home/pp/productlist')}">底妆</a>
+            			<a href="{:U('Home/pp/productlist')}">眉部</a>
+            			<a href="{:U('Home/pp/productlist')}">眼部</a>
+            			<a href="{:U('Home/pp/productlist')}">睫毛</a>
+            			<a href="{:U('Home/pp/productlist')}">腮红</a>
+            			<a href="{:U('Home/pp/productlist')}">唇部</a>
+					</dd>
+				</dl>
+				<div class=pop>
+					<h3><a href="{:U('Home/pp/productlist')}">彩妆</a></h3>
+					<dl>
+						<dl>
+							<dt>卸妆</dt>
+							<dd>
+								<a class="ui-link" href="{:U('Home/pp/product_content')}/pid/1" >卸妆油</a>
+								<a class="ui-link"    href="{:U('Home/pp/product_content')}/pid/1">卸妆液</a> 
+								<a  class="ui-link" href="{:U('Home/pp/product_content')}/pid/1">卸妆乳</a> 
+								<a class="ui-link"   href="{:U('Home/pp/product_content')}" >卸妆霜</a>
+								<a class="ui-link"   href="{:U('Home/pp/product_content')}/pid/1" >卸妆啫喱</a>
+								<a class="ui-link"   href="{:U('Home/pp/product_content')}/pid/1">眼部卸妆</a> 
+							</dd>
+						</dl>
+						<dl>
+							<dt>隔离</dt>
+							<dd>
+								<a class="ui-link" href="{:U('Home/pp/product_content')}/pid/1" >隔离霜</a>
+								<a class="ui-link"  href="{:U('Home/pp/product_content')}/pid/1"  >隔离乳</a> 
+							</dd>
+						</dl>
+						<dl>
+							<dt>底妆</dt>
+							<dd>
+								<a class="ui-link" href="{:U('Home/pp/product_content')}" >BB霜</a> 
+								<a class="ui-link"    href="{:U('Home/pp/product_content')}/pid/1"  >粉底液</a>
+								<a class="ui-link"   href="{:U('Home/pp/product_content')}">粉底霜</a>
+								<a class="ui-link"   href="{:U('Home/pp/product_content')}">粉饼</a>
+								<a class="ui-link"   href="{:U('Home/pp/product_content')}">蜜粉</a>
+								<a class="ui-link"   href="{:U('Home/pp/product_content')}">妆前乳</a>
+							</dd>
+						</dl>
+					</dl>
+					<dl>
+						<dt>眉部</dt>
+						<dd>
+							<a href="{:U('Home/pp/product_content')}">眉笔</a>
+							<a href="{:U('Home/pp/product_content')}">眉粉</a>
+							<a href="{:U('Home/pp/product_content')}" >眉膏</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt>眼部</dt>
+						<dd>
+							<a href="{:U('Home/pp/product_content')}" >眼影</a>
+							<a   href="{:U('Home/pp/product_content')}" >眼线笔</a>
+							<a  href="{:U('Home/pp/product_content')}">眼线膏</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt>睫毛</dt>
+						<dd>
+							<a href="{:U('Home/pp/product_content')}">睫毛膏</a> 
+							<a href="{:U('Home/pp/product_content')}">睫毛增长液</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt>腮红</dt>
+						<dd>
+							<a href="{:U('Home/pp/product_content')}">腮红</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt>唇部</dt>
+						<dd>
+							<a href="{:U('Home/pp/product_content')}">唇彩</a> 
+							<a href="{:U('Home/pp/product_content')}">口红</a>
+						</dd>
+					</dl>
+				</div>
+			</li>
+			<li class=a3>
+				<div class=tx><a href="{:U('Home/pp/productlist')}"><i>&nbsp;</i>香氛</a> </div>
+				<dl>
+					<dd>
+						<a href="{:U('Home/pp/productlist')}" >女士香水</a> 
+						<a href="{:U('Home/pp/productlist')}">男士香水</a> 
+						<a href="{:U('Home/pp/productlist')}">中性香水</a>
+						<a href="{:U('Home/pp/productlist')}">Q版香水</a> 
+					</dd>
+				</dl>
+				<div class=pop>
+					<h3><a href="{:U('Home/pp/productlist')}">日常香氛</a></h3>
+					<dl>
+						<dl>
+							<dt>女士香水</dt>
+							<dd>
+								<a class="ui-link" href="{:U('Home/pp/product_content')}">浓香</a>
+								<a class="ui-link"  href="{:U('Home/pp/product_content')}">淡香</a> 
+								<a class="ui-link" href="{:U('Home/pp/product_content')}" >香膏</a> 
+							</dd>
+						</dl>
+					</dl>
+					<dl>
+						<dt>男士香水</dt>
+						<dd>
+							<a  href="{:U('Home/pp/product_content')}">男士香水</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt>中性香水</dt>
+						<dd>
+							<a href="{:U('Home/pp/product_content')}">中性香水</a>
+						</dd>
+					</dl>
+				</div>
+			</li>
+			<li class=a4>
+				<div class=tx><a href="{:U('Home/pp/productlist')}"><i>&nbsp;</i>个人护理</a> </div>
+				<dl>
+					<dd>
+						<a href="{:U('Home/pp/productlist')}">洗发</a>
+						<a   href="{:U('Home/pp/productlist')}">护发</a>
+						<a  href="{:U('Home/pp/productlist')}">沐浴</a> 
+						<a  href="{:U('Home/pp/productlist')}">润肤乳</a>
+						<a  href="{:U('Home/pp/productlist')}">牙膏</a> 
+						<a  href="{:U('Home/pp/productlist')}">发膜</a>
+						<a  href="{:U('Home/pp/productlist')}">护理套装</a> 
+					</dd>
+				</dl>
+				<div class=pop>
+					<h3><a href="{:U('Home/pp/productlist')}">洗发|护发</a></h3>
+					<dl>
+						<dl>
+						<dt>洗发水</dt>
+							<dd>
+								<a class="ui-link" href="{:U('Home/pp/product_content')}">洗发水</a>
+								<a class="ui-link"   href="{:U('Home/pp/product_content')}">洗发皂</a>
+								<a  class="ui ui-link" href="{:U('Home/pp/product_content')}">干洗喷雾</a>
+								<a  class="ui ui-link" href="{:U('Home/pp/product_content')}">护肤素</a>
+								<a  class="ui ui-link" href="{:U('Home/pp/product_content')}">护发精华</a>
+							</dd>
+						</dl>
+						<dl>
+							<dt>沐浴</dt>
+							<dd>
+								<a class="ui-link"  href="{:U('Home/pp/product_content')}">沐浴露</a>
+								<a class="ui-link"  href="{:U('Home/pp/product_content')}">香皂</a> 
+								<a class="ui-link" href="{:U('Home/pp/product_content')}">沐浴套装</a>
+								<a  class="ui-link" href="{:U('Home/pp/product_content')}">身体去角质</a>
+								<a  class="ui-link" href="{:U('Home/pp/product_content')}">润肤乳</a>
+								<a  class="ui-link" href="{:U('Home/pp/product_content')}">润肤霜</a>
+								<a  class="ui-link" href="{:U('Home/pp/product_content')}">体膜</a>
+							</dd>
+						</dl>
+					</dl>
+					<dl>
+						<dt>口腔护理</dt>
+							<dd>
+								<a class="ui-link"  href="{:U('Home/pp/product_content')}">牙膏</a>
+								<a class="ui-link"  href="{:U('Home/pp/product_content')}">牙刷</a> 
+								<a class="ui-link" href="{:U('Home/pp/product_content')}">漱口水</a>
+								<a  class="ui-link" href="{:U('Home/pp/product_content')}">牙贴</a>
+							</dd>
+					</dl>
+					<dl>
+						<dt>身体护理</dt>
+						<dd>
+							<a  href="{:U('Home/pp/product_content')}">身体乳</a>
+							<a  href="{:U('Home/pp/product_content')}">脱毛</a>
+							<a  href="{:U('Home/pp/product_content')}">香体</a>
+						</dd>
+					</dl>
+					</div>
+			</li>
+				<li class=a5>
+				<div class=tx><a href="{:U('Home/pp/productlist')}"><i>&nbsp;</i>男士专区</a> </div>
+				<dl>
+					<dd>
+						<a href="{:U('Home/pp/productlist')}" >洁面</a> 
+						<a href="{:U('Home/pp/productlist')}">爽肤水</a> 
+						<a href="{:U('Home/pp/productlist')}">乳液</a>
+						<a href="{:U('Home/pp/productlist')}">面霜</a> 
+					</dd>
+				</dl>
+				<div class=pop>
+					<h3><a href="{:U('Home/pp/product_content')}">男士护肤</a></h3>
+					<dl>
+						<dl>
+							<dt>男士护肤</dt>
+							<dd>
+								<a class="ui-link" href="{:U('Home/pp/product_content')}">洁面</a>
+								<a class="ui-link"  href="{:U('Home/pp/product_content')}">爽肤水</a> 
+								<a class="ui-link" href="{:U('Home/pp/product_content')}" >精华</a> 
+								<a class="ui-link" href="{:U('Home/pp/product_content')}" >乳液</a>
+								<a class="ui-link" href="{:U('Home/pp/product_content')}" >面霜</a> 
+								<a class="ui-link" href="{:U('Home/pp/product_content')}" >眼霜</a> 
+							</dd>
+						</dl>
+					</dl>
+					<dl>
+						<dt>男士洗护</dt>
+						<dd>
+							<a  href="{:U('Home/pp/product_content')}">洗发水</a>
+							<a  href="{:U('Home/pp/product_content')}">沐浴</a>
+							<a  href="{:U('Home/pp/product_content')}">洗发水</a>
+							<a  href="{:U('Home/pp/product_content')}">漱口水</a>
+							<a  href="{:U('Home/pp/product_content')}">剃须用品</a>
+						</dd>
+					</dl>
+				</div>
+			</li>
+		</ul>
+	</div>
+</div>
+
+
+
+			<div class="row clearfix">
+				<div class="col-md-1 column">
+				</div>
+				<div class="col-md-3 column">
+				</div>
+				<div class="col-md-7 column">
+					<div class="carousel slide" id="carousel-942392">
+						<ol class="carousel-indicators">
+							<li class="active" data-slide-to="0" data-target="#carousel-942392">
+							</li>
+							<li data-slide-to="1" data-target="#carousel-942392">
+							</li>
+							<li data-slide-to="2" data-target="#carousel-942392">
+							</li>
+						</ol>
+						<div class="carousel-inner">
+							<div class="item active">
+								<img alt="" src="__PUBLIC__/home/images/sa2.jpg" />					
+							</div>
+							<div class="item">
+								<img alt="" src="__PUBLIC__/home/images/sa3.jpg" />
+							</div>
+							<div class="item">
+								<img alt="" src="__PUBLIC__/home/images/sa2.jpg" />
+							</div>
+						</div> 
+						<a class="left carousel-control" href="#carousel-296430" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#carousel-296430" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+					</div>
+
+					<div id="tabs">
+                        <ul>
+                            <li><a href="#tabs-1">推荐品牌</a></li>
+                            <li><a href="#tabs-2">合作品牌</a></li>
+                        </ul>
+                        <div id="tabs-1">
+								<table>
+									<tr>
+										<td><a href="http://www.esteelauder.com.cn"><img src="__PUBLIC__/home/images/ss1.jpg"><p class="bb">雅诗兰黛</p></a>
+										</td>
+										<td><a href="http://www.mamonde.com/cn/zh/main.html"><img src="__PUBLIC__/home/images/ss9.jpg"><p class="bb">梦妆</p></a></td>
+										<td><a href="http://www.lancome.com.cn/"><img src="__PUBLIC__/home/images/ss7.jpg"><p class="bb">兰蔻</p></a></td>
+									</tr>
+									<tr>
+										<td><a href="http://www.laneige.com/cn/zh/main.html"><img src="__PUBLIC__/home/images/ss6.jpg"><p class="bb">兰芝</p></a></td>
+										<td><a href="http://www.clinique.com.cn"><img src="__PUBLIC__/home/images/ss4.jpg"><p class="bb">倩碧</p></a></td>
+										<td><a href="http://www.carslan.com.cn"><img src="__PUBLIC__/home/images/ss8.jpg"><p class="bb">卡姿兰</p></a></td>
+									</tr>
+									<tr>
+										<td><a href="http://www.za-cosmetics.com.cn/"><img src="__PUBLIC__/home/images/ss10.jpg"><p class="bb">姬芮</p></a></td>
+										<td><a href="http://www.pechoin.com/"><img src="__PUBLIC__/home/images/ss11.jpg"><p class="bb">百雀羚</p></a></td>
+										<td><a href="http://www.thefaceshops.com/"><img src="__PUBLIC__/home/images/ss12.jpg"><p class="bb">菲诗小铺</p></a></td>
+									</tr>
+								</table>
+                        </div>
+                        <div id="tabs-2">
+                        <table>
+									<tr>
+										<td><a href="http://www.esteelauder.com.cn"><img src="__PUBLIC__/home/images/ss1.jpg"><p class="bb">雅诗兰黛</p></a>
+										</td>
+										<td><a href="http://www.mamonde.com/cn/zh/main.html"><img src="__PUBLIC__/home/images/ss9.jpg"><p class="bb">梦妆</p></a></td>
+										<td><a href="http://www.lancome.com.cn/"><img src="__PUBLIC__/home/images/ss7.jpg"><p class="bb">兰蔻</p></a></td>
+									</tr>
+									<tr>
+										<td><a href="http://www.za-cosmetics.com.cn/"><img src="__PUBLIC__/home/images/ss10.jpg"><p class="bb">姬芮</p></a></td>
+										<td><a href="http://www.pechoin.com/"><img src="__PUBLIC__/home/images/ss11.jpg"><p class="bb">百雀羚</p></a></td>
+										<td><a href="http://www.carslan.com.cn"><img src="__PUBLIC__/home/images/ss8.jpg"><p class="bb">卡姿兰</p></a></td>
+									</tr>
+								</table>
+
+                            </div>
+ 
+                        </div>
+ 
+
+				</div>
+				<div class="col-md-1 column">
+				</div>
+			</div>
+			<div class="row clearfix3">
+				<div class="col-md-1 column">
+				</div>
+				<div class="col-md-10 column4">
+				<h3>精选活动 ACTIVITY</h3>
+					<div class="row">
+						<div class="col-md-45">
+							<div class="thumbnail1">
+								<a href="https://carslan.tmall.com/shop/view_shop.htm?spm=a230r.7195193.1997079397.2.JDXJ49"><img src="__PUBLIC__/home/images/st2.jpg" /></a>
+                                  <a href="https://carslan.tmall.com/shop/view_shop.htm?spm=a230r.7195193.1997079397.2.JDXJ49"><h4>卡姿兰官方旗舰店</h4></a>
+                                  <p>时尚就是卡姿兰</p>
+                                <div id="CountMsg" class="HotDate">距离活动结束还剩： 
+									<span id="t_d">00天</span> 
+									<span id="t_h">00时</span> 
+									<span id="t_m">00分</span> 
+									<span id="t_s">00秒</span> 
+								</div>
+							</div>
+						</div>
+						<div class="col-md-45">
+							<div class="thumbnail1">
+								<a href="https://thefaceshop.tmall.com/shop/view_shop.htm?spm=a230r.7195193.1997079397.2.0ABFhg"><img src="__PUBLIC__/home/images/st3.jpg" /></a>
+                                  <a href="https://thefaceshop.tmall.com/shop/view_shop.htm?spm=a230r.7195193.1997079397.2.0ABFhg"><h4>菲诗小铺旗舰店</h4></a>
+                                  <p>韩妆护肤畅销品牌</p>
+                                <div id="CountMsg" class="HotDate">距离活动结束还剩： 
+									<span id="t_d1">00天</span> 
+									<span id="t_h1">00时</span> 
+									<span id="t_m1">00分</span> 
+									<span id="t_s1">00秒</span> 
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-45">
+							<div class="thumbnail1">
+								<a href="https://loreal.tmall.com/shop/view_shop.htm?spm=a230r.7195193.1997079397.2.fNjKLc"><img src="__PUBLIC__/home/images/st4.jpg" /></a>
+                                  <a href="https://loreal.tmall.com/shop/view_shop.htm?spm=a230r.7195193.1997079397.2.fNjKLc"><h4>欧莱雅旗舰店</h4></a>
+                                  <p>你值得拥有</p>
+                                <div id="CountMsg" class="HotDate">距离活动结束还剩： 
+									<span id="t_d2">00天</span> 
+									<span id="t_h2">00时</span> 
+									<span id="t_m2">00分</span> 
+									<span id="t_s2">00秒</span> 
+								</div>
+							</div>
+						</div>
+						<div class="col-md-45">
+							<div class="thumbnail1">
+								<a href="https://pechoin.tmall.com/shop/view_shop.htm?spm=a230r.7195193.1997079397.2.D2KGh4"><img src="__PUBLIC__/home/images/st5.jpg" /></a>
+                                  <a href="https://pechoin.tmall.com/shop/view_shop.htm?spm=a230r.7195193.1997079397.2.D2KGh4"><h4>百雀羚旗舰店</h4></a>
+                                  <p>天然不刺激 百雀羚草本</p>
+                                <div id="CountMsg" class="HotDate">距离活动结束还剩： 
+									<span id="t_d3">00天</span> 
+									<span id="t_h3">00时</span> 
+									<span id="t_m3">00分</span> 
+									<span id="t_s3">00秒</span> 
+								</div>
+							</div>
+						</div>
+					</div>
+				<div class="col-md-1 column">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="footer-section">
+					<div class="container">
+						<div class="footer-left">
+							<p>    Copyright © 靓妆.Company name All rights reserved.</p>
+						</div>
+							<div class="bottom-menu">
+								<ul>
+								<li><a href="{:U('Home/index/index')}" class="active"><span data-hover="首页">首页</span></a></li>
+					<li><a href="{:U('Home/pp/product')}"><span data-hover="产品介绍">产品介绍</span></a></li>
+					<li><a href="{:U('Home/video/video')}"><span data-hover="视频教学">视频教学</span></a></li>
+					<li><a href="{:U('Home/sce/services')}"><span data-hover="美妆点评">美妆点评</span></a></li>
+					<li><a href="{:U('Home/zc/zcao')}"><span data-hover="种草">种草</span></a></li>
+					
+								</ul>
+							</div>
+							<div class="clearfix"></div>
+							<script type="text/javascript">
+						$(document).ready(function() {
+							/*
+							var defaults = {
+					  			containerID: 'toTop', // fading element id
+								containerHoverID: 'toTopHover', // fading element hover id
+								scrollSpeed: 1200,
+								easingType: 'linear' 
+					 		};
+							*/
+							
+							$().UItoTop({ easingType: 'easeOutQuart' });
+							
+						});
+					</script>
+				<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+				</div>				
+				</div>
+</body>
+</html>

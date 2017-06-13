@@ -1,0 +1,11 @@
+[ 2017-05-12T11:07:08+08:00 ] 127.0.0.1 /liangzhuang/index.php/Admin/pp/edit/pp-id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.040498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011134s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011322s ]
+SQL: SHOW COLUMNS FROM `pp` [ RunTime:0.3224s ]
+NOTIC: [8] Undefined index: pp-id F:\websever\soft\liangzhuang\Application\Admin\Controller\PpController.class.php 第 73 行.
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pp' in 'where clause'
+

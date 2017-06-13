@@ -1,0 +1,72 @@
+<layout name="layoutadmin" />
+<style>
+  .result-tab{
+    table-layout:fixed;
+  }
+  .result-tab td{
+width:100%;
+word-break:keep-all;/* 不换行 */
+white-space:nowrap;/* 不换行 */
+overflow:hidden;/* 内容超出宽度时隐藏超出部分的内容 */
+text-overflow:ellipsis;/* 当对象内文本溢出时显示省略标记(...) ；需与overflow:hidden;一 起使用。*/
+}
+
+</style>
+    <div class="main-wrap">
+
+        <div class="crumb-wrap">
+            <div class="crumb-list"><i class="icon-font"></i><a href="{:U('Admin/index/index')}">首页</a><span class="crumb-step">&gt;</span><span class="crumb-name">用户管理</span></div>
+        </div>
+
+        <div class="result-wrap">
+            <form name="myform" id="myform" method="post">
+                <div class="result-title">
+                    <div class="result-list">
+                        <a href="{:U('Admin/user/create')}"><i class="icon-font"></i>新增用户</a>
+                    </div>
+                </div>
+                <div class="result-content">
+                    <table class="result-tab" width="100%">
+                        <tr>
+                            <th class="tc" width="5%"><input class="allChoose" name="" type="checkbox"></th>
+                            <th>ID</th>
+                            <th>用户名字</th>
+                            <th>头像</th>
+                            <th>积分</th>
+                            <th>密码</th>
+                            <th>心愿单</th>
+                            <th>收藏</th>
+                            <th>手机号</th>
+                            <th>VIP</th>
+                            <th>电子邮箱</th>
+                            <th>性别</th>
+                            <th>生日</th>
+                            <th>操作</th>
+                        </tr>
+                        <volist name="user" id="vo">
+                        <tr>
+                            <td class="tc"><input name="id[]" value="{$vo.uid}" type="checkbox"></td>
+                            <td>{$vo.uid}</td>
+                            <td>{$vo.name}</td>
+                            <td>{$vo.img}</td>
+                            <td>{$vo.integral}</td>
+                            <td>{$vo.pw}</td>
+                            <td>{$vo.xy-id}</td>
+                            <td>{$vo.sc-id}</td>
+                            <td>{$vo.phone}</td>
+                            <td>{$vo.vip}</td>
+                            <td>{$vo.email}</td>
+                            <td>{$vo.sex}</td>
+                            <td>{$vo.birthday}</td>
+                            <td>
+                                <a class="link-update" href="{:U('Admin/user/edit')}/uid/{$vo.uid}">修改</a>
+                                <a class="link-del" href="{:U('Admin/user/destroy')}/uid/{$vo.uid}">删除</a>
+                            </td>
+                        </tr>
+                        </volist>
+                        
+                    </table>
+                </div>
+            </form>
+        </div>
+    </div>

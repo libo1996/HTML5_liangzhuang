@@ -1,0 +1,1082 @@
+[ 2017-06-07T08:16:34+08:00 ] 127.0.0.1 /liangzhuang/index.php/Admin/zc/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000117s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004825s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008008s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008302s ]
+SQL: SHOW COLUMNS FROM `zc` [ RunTime:0.2089s ]
+SQL: SELECT * FROM `zc`  [ RunTime:0.0222s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000250s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000453s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.333287s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.333550s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.037417s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037657s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013621s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013875s ]
+
+[ 2017-06-07T08:48:17+08:00 ] 127.0.0.1 /liangzhuang/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018171s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.024255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024483s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000615s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000925s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.113867s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.114095s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.034379s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.034578s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.036426s ]
+INFO: [ app_end ] --END-- [ RunTime:0.036633s ]
+
+[ 2017-06-07T08:58:51+08:00 ] 127.0.0.1 /liangzhuang/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002402s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011432s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011527s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000707s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000780s ]
+
+[ 2017-06-07T08:58:57+08:00 ] 127.0.0.1 /liangzhuang/index.php/Admin/pp/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000785s ]
+SQL: SHOW COLUMNS FROM `pp` [ RunTime:0.0273s ]
+SQL: SELECT * FROM `pp`  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000404s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000806s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.159305s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.159521s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000894s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001655s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001830s ]
+
+[ 2017-06-07T08:59:03+08:00 ] 127.0.0.1 /liangzhuang/index.php/Admin/pp/edit/pid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004492s ]
+SQL: SHOW COLUMNS FROM `pp` [ RunTime:0.0191s ]
+SQL: SELECT * FROM `pp` WHERE ( pid=1 ) LIMIT 1   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000231s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000638s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.151231s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.151447s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000785s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000937s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001816s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001993s ]
+
+[ 2017-06-07T09:06:39+08:00 ] 127.0.0.1 /liangzhuang/index.php/Admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000948s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012662s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012762s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000854s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000927s ]
+
+[ 2017-06-07T09:06:43+08:00 ] 127.0.0.1 /liangzhuang/index.php/Admin/pp/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000853s ]
+SQL: SHOW COLUMNS FROM `pp` [ RunTime:0.0215s ]
+SQL: SELECT * FROM `pp`  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000291s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000500s ]
+NOTIC: [8] Undefined index: b_kind F:\websever\soft\liangzhuang\Application\Runtime\Cache\Admin\2b03ed06295dca4b14f768f3fe3faace.php 第 139 行.
+NOTIC: [8] Undefined index: s_kind F:\websever\soft\liangzhuang\Application\Runtime\Cache\Admin\2b03ed06295dca4b14f768f3fe3faace.php 第 140 行.
+NOTIC: [8] Undefined index: b_kind F:\websever\soft\liangzhuang\Application\Runtime\Cache\Admin\2b03ed06295dca4b14f768f3fe3faace.php 第 139 行.
+NOTIC: [8] Undefined index: s_kind F:\websever\soft\liangzhuang\Application\Runtime\Cache\Admin\2b03ed06295dca4b14f768f3fe3faace.php 第 140 行.
+NOTIC: [8] Undefined index: b_kind F:\websever\soft\liangzhuang\Application\Runtime\Cache\Admin\2b03ed06295dca4b14f768f3fe3faace.php 第 139 行.
+NOTIC: [8] Undefined index: s_kind F:\websever\soft\liangzhuang\Application\Runtime\Cache\Admin\2b03ed06295dca4b14f768f3fe3faace.php 第 140 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039921s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040156s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001015s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001222s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002593s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003024s ]
+
+[ 2017-06-07T09:06:47+08:00 ] 127.0.0.1 /liangzhuang/index.php/Admin/pp/edit/pid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000746s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001503s ]
+SQL: SHOW COLUMNS FROM `pp` [ RunTime:0.0209s ]
+SQL: SELECT * FROM `pp` WHERE ( pid=1 ) LIMIT 1   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000245s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000428s ]
+NOTIC: [8] Undefined index: b_kind F:\websever\soft\liangzhuang\Application\Runtime\Cache\Admin\bf7369ce5dd288d77facb6b73a1d2ba8.php 第 151 行.
+NOTIC: [8] Undefined index: s_kind F:\websever\soft\liangzhuang\Application\Runtime\Cache\Admin\bf7369ce5dd288d77facb6b73a1d2ba8.php 第 157 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032109s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032288s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000882s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002860s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003121s ]
+
+[ 2017-06-07T09:11:00+08:00 ] 127.0.0.1 /liangzhuang/index.php/Admin/pp/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003425s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\websever\soft\liangzhuang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\websever\soft\liangzhuang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\websever\soft\liangzhuang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `pp` [ RunTime:0.0282s ]
+NOTIC: [8] Undefined index: b-kind F:\websever\soft\liangzhuang\Application\Admin\Controller\PpController.class.php 第 101 行.
+NOTIC: [8] Undefined index: img4 F:\websever\soft\liangzhuang\Application\Admin\Controller\PpController.class.php 第 107 行.
+NOTIC: [8] Undefined index: img5 F:\websever\soft\liangzhuang\Application\Admin\Controller\PpController.class.php 第 108 行.
+SQL: UPDATE `pp` SET `pid`='1',`name`='KATE美妆悦现粉底液 SPF20 PA++ 30mL ',`brand`='凯朵（KATE） ',`effect`='均匀肤色,定妆,修容,修饰',`fit-people`='爱美人士',`volume`='30ml ',`time`='3或5年（具体时间以实际到货为准） ',`color`='BE-C、BR-C、OC-B、OC-C ',`country`='中国/日本（具体产地以收到产品为主）',`explain`='不可置于阳光下',`img1`='../Public/uploads/2017-06-07/593752a29ddb9.jpg',`img2`='../Public/uploads/2017-06-07/593752a2c0311.jpg',`img3`='../Public/uploads/2017-06-07/593752a2c30b2.jpg',`img4`='../Public/uploads/2017-06-07/',`img5`='../Public/uploads/2017-06-07/' WHERE ( pid=1 ) [ RunTime:0.0917s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005146s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005434s ]
+
+[ 2017-06-07T09:11:02+08:00 ] 127.0.0.1 /liangzhuang/index.php/Admin/pp/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002874s ]
+SQL: SHOW COLUMNS FROM `pp` [ RunTime:0.0207s ]
+SQL: SELECT * FROM `pp`  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000255s ]
+NOTIC: [8] Undefined index: b_kind F:\websever\soft\liangzhuang\Application\Runtime\Cache\Admin\2b03ed06295dca4b14f768f3fe3faace.php 第 139 行.
+NOTIC: [8] Undefined index: s_kind F:\websever\soft\liangzhuang\Application\Runtime\Cache\Admin\2b03ed06295dca4b14f768f3fe3faace.php 第 140 行.
+NOTIC: [8] Undefined index: b_kind F:\websever\soft\liangzhuang\Application\Runtime\Cache\Admin\2b03ed06295dca4b14f768f3fe3faace.php 第 139 行.
+NOTIC: [8] Undefined index: s_kind F:\websever\soft\liangzhuang\Application\Runtime\Cache\Admin\2b03ed06295dca4b14f768f3fe3faace.php 第 140 行.
+NOTIC: [8] Undefined index: b_kind F:\websever\soft\liangzhuang\Application\Runtime\Cache\Admin\2b03ed06295dca4b14f768f3fe3faace.php 第 139 行.
+NOTIC: [8] Undefined index: s_kind F:\websever\soft\liangzhuang\Application\Runtime\Cache\Admin\2b03ed06295dca4b14f768f3fe3faace.php 第 140 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034884s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035037s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001143s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001256s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001859s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001981s ]
+
+[ 2017-06-07T09:11:05+08:00 ] 127.0.0.1 /liangzhuang/index.php/Admin/pp/edit/pid/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001030s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001161s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001265s ]
+SQL: SHOW COLUMNS FROM `pp` [ RunTime:0.0203s ]
+SQL: SELECT * FROM `pp` WHERE ( pid=2 ) LIMIT 1   [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000276s ]
+NOTIC: [8] Undefined index: b_kind F:\websever\soft\liangzhuang\Application\Runtime\Cache\Admin\bf7369ce5dd288d77facb6b73a1d2ba8.php 第 151 行.
+NOTIC: [8] Undefined index: s_kind F:\websever\soft\liangzhuang\Application\Runtime\Cache\Admin\bf7369ce5dd288d77facb6b73a1d2ba8.php 第 157 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033790s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033940s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001425s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001547s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003479s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003670s ]
+
+[ 2017-06-07T09:12:39+08:00 ] 127.0.0.1 /liangzhuang/index.php/Admin/pp/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000347s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002015s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002657s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\websever\soft\liangzhuang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\websever\soft\liangzhuang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\websever\soft\liangzhuang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `pp` [ RunTime:0.0539s ]
+NOTIC: [8] Undefined index: b-kind F:\websever\soft\liangzhuang\Application\Admin\Controller\PpController.class.php 第 101 行.
+NOTIC: [8] Undefined index: img4 F:\websever\soft\liangzhuang\Application\Admin\Controller\PpController.class.php 第 107 行.
+NOTIC: [8] Undefined index: img5 F:\websever\soft\liangzhuang\Application\Admin\Controller\PpController.class.php 第 108 行.
+SQL: UPDATE `pp` SET `pid`='2',`name`='洗颜专科（perfect）柔澈泡沫洁面乳',`brand`='洗颜专科(perfect)',`effect`='清洁,保湿,滋润,净肤',`fit-people`='想要清洁肌肤的人士',`volume`='120g',`time`='5年（具体日期以收到实物为准）',`color`='无',`country`='日本',`explain`='新老包装随机发货，具体以收到实物为准。介意的人士慎购！',`img1`='../Public/uploads/2017-06-07/59375306b1744.jpg',`img2`='../Public/uploads/2017-06-07/59375306b6456.jpg',`img3`='../Public/uploads/2017-06-07/59375306b78e4.jpg',`img4`='../Public/uploads/2017-06-07/',`img5`='../Public/uploads/2017-06-07/' WHERE ( pid=2 ) [ RunTime:0.1057s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003065s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003281s ]
+
+[ 2017-06-07T09:12:43+08:00 ] 127.0.0.1 /liangzhuang/index.php/Admin/pp/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002184s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002445s ]
+SQL: SHOW COLUMNS FROM `pp` [ RunTime:0.0272s ]
+SQL: SELECT * FROM `pp`  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000278s ]
+NOTIC: [8] Undefined index: b_kind F:\websever\soft\liangzhuang\Application\Runtime\Cache\Admin\2b03ed06295dca4b14f768f3fe3faace.php 第 139 行.
+NOTIC: [8] Undefined index: s_kind F:\websever\soft\liangzhuang\Application\Runtime\Cache\Admin\2b03ed06295dca4b14f768f3fe3faace.php 第 140 行.
+NOTIC: [8] Undefined index: b_kind F:\websever\soft\liangzhuang\Application\Runtime\Cache\Admin\2b03ed06295dca4b14f768f3fe3faace.php 第 139 行.
+NOTIC: [8] Undefined index: s_kind F:\websever\soft\liangzhuang\Application\Runtime\Cache\Admin\2b03ed06295dca4b14f768f3fe3faace.php 第 140 行.
+NOTIC: [8] Undefined index: b_kind F:\websever\soft\liangzhuang\Application\Runtime\Cache\Admin\2b03ed06295dca4b14f768f3fe3faace.php 第 139 行.
+NOTIC: [8] Undefined index: s_kind F:\websever\soft\liangzhuang\Application\Runtime\Cache\Admin\2b03ed06295dca4b14f768f3fe3faace.php 第 140 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035360s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035510s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001216s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001786s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001905s ]
+
+[ 2017-06-07T09:12:53+08:00 ] 127.0.0.1 /liangzhuang/index.php/Admin/pp/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001145s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001244s ]
+SQL: SHOW COLUMNS FROM `pp` [ RunTime:0.0223s ]
+SQL: SELECT * FROM `pp`  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000169s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000317s ]
+NOTIC: [8] Undefined index: b_kind F:\websever\soft\liangzhuang\Application\Runtime\Cache\Admin\2b03ed06295dca4b14f768f3fe3faace.php 第 139 行.
+NOTIC: [8] Undefined index: s_kind F:\websever\soft\liangzhuang\Application\Runtime\Cache\Admin\2b03ed06295dca4b14f768f3fe3faace.php 第 140 行.
+NOTIC: [8] Undefined index: b_kind F:\websever\soft\liangzhuang\Application\Runtime\Cache\Admin\2b03ed06295dca4b14f768f3fe3faace.php 第 139 行.
+NOTIC: [8] Undefined index: s_kind F:\websever\soft\liangzhuang\Application\Runtime\Cache\Admin\2b03ed06295dca4b14f768f3fe3faace.php 第 140 行.
+NOTIC: [8] Undefined index: b_kind F:\websever\soft\liangzhuang\Application\Runtime\Cache\Admin\2b03ed06295dca4b14f768f3fe3faace.php 第 139 行.
+NOTIC: [8] Undefined index: s_kind F:\websever\soft\liangzhuang\Application\Runtime\Cache\Admin\2b03ed06295dca4b14f768f3fe3faace.php 第 140 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037950s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038132s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001187s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001369s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002159s ]
+
+[ 2017-06-07T09:13:32+08:00 ] 127.0.0.1 /liangzhuang/index.php/Admin/pp/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000909s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001150s ]
+SQL: SHOW COLUMNS FROM `pp` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `pp`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000221s ]
+NOTIC: [8] Undefined index: b_kind F:\websever\soft\liangzhuang\Application\Runtime\Cache\Admin\2b03ed06295dca4b14f768f3fe3faace.php 第 139 行.
+NOTIC: [8] Undefined index: s_kind F:\websever\soft\liangzhuang\Application\Runtime\Cache\Admin\2b03ed06295dca4b14f768f3fe3faace.php 第 140 行.
+NOTIC: [8] Undefined index: b_kind F:\websever\soft\liangzhuang\Application\Runtime\Cache\Admin\2b03ed06295dca4b14f768f3fe3faace.php 第 139 行.
+NOTIC: [8] Undefined index: s_kind F:\websever\soft\liangzhuang\Application\Runtime\Cache\Admin\2b03ed06295dca4b14f768f3fe3faace.php 第 140 行.
+NOTIC: [8] Undefined index: b_kind F:\websever\soft\liangzhuang\Application\Runtime\Cache\Admin\2b03ed06295dca4b14f768f3fe3faace.php 第 139 行.
+NOTIC: [8] Undefined index: s_kind F:\websever\soft\liangzhuang\Application\Runtime\Cache\Admin\2b03ed06295dca4b14f768f3fe3faace.php 第 140 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018506s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018614s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000742s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001245s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001370s ]
+
+[ 2017-06-07T09:13:35+08:00 ] 127.0.0.1 /liangzhuang/index.php/Admin/pp/edit/pid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001116s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001202s ]
+SQL: SHOW COLUMNS FROM `pp` [ RunTime:0.0254s ]
+SQL: SELECT * FROM `pp` WHERE ( pid=1 ) LIMIT 1   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000167s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000295s ]
+NOTIC: [8] Undefined index: b_kind F:\websever\soft\liangzhuang\Application\Runtime\Cache\Admin\bf7369ce5dd288d77facb6b73a1d2ba8.php 第 151 行.
+NOTIC: [8] Undefined index: s_kind F:\websever\soft\liangzhuang\Application\Runtime\Cache\Admin\bf7369ce5dd288d77facb6b73a1d2ba8.php 第 157 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026376s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026508s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001230s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001340s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003137s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003340s ]
+
+[ 2017-06-07T09:14:05+08:00 ] 127.0.0.1 /liangzhuang/index.php/Admin/pp/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001175s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001275s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\websever\soft\liangzhuang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\websever\soft\liangzhuang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\websever\soft\liangzhuang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `pp` [ RunTime:0.0200s ]
+NOTIC: [8] Undefined index: b-kind F:\websever\soft\liangzhuang\Application\Admin\Controller\PpController.class.php 第 101 行.
+NOTIC: [8] Undefined index: img4 F:\websever\soft\liangzhuang\Application\Admin\Controller\PpController.class.php 第 107 行.
+NOTIC: [8] Undefined index: img5 F:\websever\soft\liangzhuang\Application\Admin\Controller\PpController.class.php 第 108 行.
+SQL: UPDATE `pp` SET `pid`='1',`name`='KATE美妆悦现粉底液 SPF20 PA++ 30mL ',`brand`='凯朵（KATE） ',`effect`='均匀肤色,定妆,修容,修饰',`fit-people`='爱美人士',`volume`='30ml ',`time`='3或5年（具体时间以实际到货为准） ',`color`='BE-C、BR-C、OC-B、OC-C ',`country`='中国/日本（具体产地以收到产品为主）',`explain`='不可置于阳光下',`img1`='../Public/uploads/2017-06-07/5937535c0618b.jpg',`img2`='../Public/uploads/2017-06-07/5937535c0c048.jpg',`img3`='../Public/uploads/2017-06-07/5937535c0d57a.jpg',`img4`='../Public/uploads/2017-06-07/',`img5`='../Public/uploads/2017-06-07/' WHERE ( pid=1 ) [ RunTime:0.1184s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002981s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003169s ]
+
+[ 2017-06-07T09:14:06+08:00 ] 127.0.0.1 /liangzhuang/index.php/Admin/pp/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001137s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001234s ]
+SQL: SHOW COLUMNS FROM `pp` [ RunTime:0.0202s ]
+SQL: SELECT * FROM `pp`  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000227s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000419s ]
+NOTIC: [8] Undefined index: b_kind F:\websever\soft\liangzhuang\Application\Runtime\Cache\Admin\2b03ed06295dca4b14f768f3fe3faace.php 第 139 行.
+NOTIC: [8] Undefined index: s_kind F:\websever\soft\liangzhuang\Application\Runtime\Cache\Admin\2b03ed06295dca4b14f768f3fe3faace.php 第 140 行.
+NOTIC: [8] Undefined index: b_kind F:\websever\soft\liangzhuang\Application\Runtime\Cache\Admin\2b03ed06295dca4b14f768f3fe3faace.php 第 139 行.
+NOTIC: [8] Undefined index: s_kind F:\websever\soft\liangzhuang\Application\Runtime\Cache\Admin\2b03ed06295dca4b14f768f3fe3faace.php 第 140 行.
+NOTIC: [8] Undefined index: b_kind F:\websever\soft\liangzhuang\Application\Runtime\Cache\Admin\2b03ed06295dca4b14f768f3fe3faace.php 第 139 行.
+NOTIC: [8] Undefined index: s_kind F:\websever\soft\liangzhuang\Application\Runtime\Cache\Admin\2b03ed06295dca4b14f768f3fe3faace.php 第 140 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043964s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044115s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001131s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001224s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001680s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001794s ]
+
+[ 2017-06-07T09:15:29+08:00 ] 127.0.0.1 /liangzhuang/index.php/Admin/pp/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001341s ]
+SQL: SHOW COLUMNS FROM `pp` [ RunTime:0.0213s ]
+SQL: SELECT * FROM `pp`  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000264s ]
+NOTIC: [8] Undefined index: b_kind F:\websever\soft\liangzhuang\Application\Runtime\Cache\Admin\2b03ed06295dca4b14f768f3fe3faace.php 第 139 行.
+NOTIC: [8] Undefined index: s_kind F:\websever\soft\liangzhuang\Application\Runtime\Cache\Admin\2b03ed06295dca4b14f768f3fe3faace.php 第 140 行.
+NOTIC: [8] Undefined index: b_kind F:\websever\soft\liangzhuang\Application\Runtime\Cache\Admin\2b03ed06295dca4b14f768f3fe3faace.php 第 139 行.
+NOTIC: [8] Undefined index: s_kind F:\websever\soft\liangzhuang\Application\Runtime\Cache\Admin\2b03ed06295dca4b14f768f3fe3faace.php 第 140 行.
+NOTIC: [8] Undefined index: b_kind F:\websever\soft\liangzhuang\Application\Runtime\Cache\Admin\2b03ed06295dca4b14f768f3fe3faace.php 第 139 行.
+NOTIC: [8] Undefined index: s_kind F:\websever\soft\liangzhuang\Application\Runtime\Cache\Admin\2b03ed06295dca4b14f768f3fe3faace.php 第 140 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034431s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034610s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000867s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001847s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002029s ]
+
+[ 2017-06-07T09:16:03+08:00 ] 127.0.0.1 /liangzhuang/index.php/Admin/pp/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000507s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000935s ]
+SQL: SHOW COLUMNS FROM `pp` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `pp`  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000225s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000419s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038978s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039188s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000909s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001071s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001784s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001971s ]
+
+[ 2017-06-07T09:16:06+08:00 ] 127.0.0.1 /liangzhuang/index.php/Admin/pp/edit/pid/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001147s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001233s ]
+SQL: SHOW COLUMNS FROM `pp` [ RunTime:0.0286s ]
+SQL: SELECT * FROM `pp` WHERE ( pid=3 ) LIMIT 1   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000259s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033698s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033910s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001227s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001320s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001607s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001726s ]
+
+[ 2017-06-07T09:22:10+08:00 ] 127.0.0.1 /liangzhuang/index.php/Admin/pp/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000946s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\websever\soft\liangzhuang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\websever\soft\liangzhuang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\websever\soft\liangzhuang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `pp` [ RunTime:0.0214s ]
+NOTIC: [8] Undefined index: b-kind F:\websever\soft\liangzhuang\Application\Admin\Controller\PpController.class.php 第 101 行.
+NOTIC: [8] Undefined index: img4 F:\websever\soft\liangzhuang\Application\Admin\Controller\PpController.class.php 第 107 行.
+NOTIC: [8] Undefined index: img5 F:\websever\soft\liangzhuang\Application\Admin\Controller\PpController.class.php 第 108 行.
+SQL: UPDATE `pp` SET `pid`='3',`name`='城野医生毛孔对策收敛水',`brand`='城野医生(Dr.Ci:Labo)',`effect`='专治各种毛孔粗大',`fit-people`='毛孔粗大的人士',`volume`='200ml',`time`='3或5年（具体时间以实际到货为准） ',`color`='无',`country`='日本',`explain`='不可置于阳光下',`b_kind`=NULL,`s_kind`='收敛水',`img1`='../Public/uploads/2017-06-07/5937554194dc1.jpg',`img2`='../Public/uploads/2017-06-07/593755419698f.jpg',`img3`='../Public/uploads/2017-06-07/593755419a782.jpg' WHERE ( pid=3 ) [ RunTime:0.0750s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004148s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004371s ]
+
+[ 2017-06-07T09:22:13+08:00 ] 127.0.0.1 /liangzhuang/index.php/Admin/pp/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001751s ]
+SQL: SHOW COLUMNS FROM `pp` [ RunTime:0.0194s ]
+SQL: SELECT * FROM `pp`  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000359s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000644s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055730s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055959s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001608s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001775s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003752s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004056s ]
+
+[ 2017-06-07T09:22:42+08:00 ] 127.0.0.1 /liangzhuang/index.php/Admin/pp/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000982s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001069s ]
+SQL: SHOW COLUMNS FROM `pp` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `pp`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000229s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000420s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034427s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034602s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001395s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001553s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002197s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002388s ]
+
+[ 2017-06-07T09:51:44+08:00 ] 127.0.0.1 /liangzhuang/index.php/Admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002211s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000291s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052063s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052265s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001262s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001381s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001803s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001904s ]
+
+[ 2017-06-07T09:51:49+08:00 ] 127.0.0.1 /liangzhuang/index.php/Admin/pp/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001168s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001270s ]
+SQL: SHOW COLUMNS FROM `pp` [ RunTime:0.0238s ]
+SQL: SELECT * FROM `pp`  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000209s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000417s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040085s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001034s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001131s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002179s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002335s ]
+
+[ 2017-06-07T09:53:52+08:00 ] 127.0.0.1 /liangzhuang/index.php/Admin/pp/create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000984s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000276s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036085s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036186s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000954s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001039s ]
+
+[ 2017-06-07T09:55:56+08:00 ] 127.0.0.1 /liangzhuang/index.php/Admin/pp/store
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000641s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001313s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\websever\soft\liangzhuang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\websever\soft\liangzhuang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\websever\soft\liangzhuang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `pp` [ RunTime:0.1493s ]
+NOTIC: [8] Undefined index: validate F:\websever\soft\liangzhuang\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\websever\soft\liangzhuang\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [8] Undefined index: b-kind F:\websever\soft\liangzhuang\Application\Admin\Controller\PpController.class.php 第 52 行.
+SQL: INSERT INTO `pp` (`name`,`brand`,`effect`,`fit-people`,`volume`,`time`,`color`,`country`,`explain`,`b_kind`,`s_kind`,`img1`,`img2`,`img3`) VALUES ('  BeautyBuffet牛奶洗面奶100ml ','Beauty Buffet','清洁,补水,去黑头,缩小毛孔','爱美人士','100ml','3或5年（具体时间以实际到货为准） ','无','泰国','泰国人气护肤品牌——BeautyBuffet浓密牛奶洗面奶，洗出嫩滑“牛奶肌”！洁面也能如此“温柔”，氨基酸配方温和无刺激；牛奶蛋白&辅酶Q10双重滋养，肌肤洁净不紧绷！甜甜牛奶味~~不要贪杯，留给肌肤“喝”哟！弹、润、嫩、滑，肌肤尽享牛奶浴！ ',NULL,'洁面乳','../Public/uploads/2017-06-07/59375d2a12cb9.jpg','../Public/uploads/2017-06-07/59375d2a13f47.jpg','../Public/uploads/2017-06-07/59375d2a190fd.jpg') [ RunTime:0.9211s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002841s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003046s ]
+
+[ 2017-06-07T09:55:58+08:00 ] 127.0.0.1 /liangzhuang/index.php/Admin/pp/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002996s ]
+SQL: SHOW COLUMNS FROM `pp` [ RunTime:0.0211s ]
+SQL: SELECT * FROM `pp`  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000346s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000654s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046873s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047091s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001479s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001652s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002539s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002740s ]
+
+[ 2017-06-07T09:56:34+08:00 ] 127.0.0.1 /liangzhuang/index.php/Admin/pp/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000712s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000986s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001073s ]
+SQL: SHOW COLUMNS FROM `pp` [ RunTime:0.0239s ]
+SQL: SELECT * FROM `pp`  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000227s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000449s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046366s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046588s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001659s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001827s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002556s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002763s ]
+
+[ 2017-06-07T10:12:31+08:00 ] 127.0.0.1 /liangzhuang/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000896s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000942s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000185s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000508s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034283s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034411s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000731s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000811s ]
+
+[ 2017-06-07T10:12:35+08:00 ] 127.0.0.1 /liangzhuang/index.php/Admin/pp/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000889s ]
+SQL: SHOW COLUMNS FROM `pp` [ RunTime:0.0217s ]
+SQL: SELECT * FROM `pp`  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026323s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026508s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001213s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001352s ]
+
+[ 2017-06-07T10:12:38+08:00 ] 127.0.0.1 /liangzhuang/index.php/Admin/pp/edit/pid/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+SQL: SHOW COLUMNS FROM `pp` [ RunTime:0.0126s ]
+SQL: SELECT * FROM `pp` WHERE ( pid=5 ) LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037187s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037336s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001111s ]
+
+[ 2017-06-07T10:12:54+08:00 ] 127.0.0.1 /liangzhuang/index.php/Admin/pp/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001130s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001833s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\websever\soft\liangzhuang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\websever\soft\liangzhuang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\websever\soft\liangzhuang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `pp` [ RunTime:0.0335s ]
+NOTIC: [8] Undefined index: b-kind F:\websever\soft\liangzhuang\Application\Admin\Controller\PpController.class.php 第 101 行.
+NOTIC: [8] Undefined index: img4 F:\websever\soft\liangzhuang\Application\Admin\Controller\PpController.class.php 第 107 行.
+NOTIC: [8] Undefined index: img5 F:\websever\soft\liangzhuang\Application\Admin\Controller\PpController.class.php 第 108 行.
+SQL: UPDATE `pp` SET `pid`='5',`name`='悦诗风吟绿茶精萃保湿洁面膏',`brand`='悦诗风吟(innisfree)',`effect`='清洁,保湿,补水,温和',`fit-people`='  任何肤质，尤其是干燥缺水的肌肤 ',`volume`='150ml',`time`='  3年（具体日期以收到实物为准） ',`color`='无',`country`='日本',`explain`='  全新正品，无外盒 ',`b_kind`=NULL,`s_kind`='洁面乳',`img1`='../Public/uploads/2017-06-07/59376125bbf42.jpg',`img2`='../Public/uploads/2017-06-07/59376125c177c.jpg',`img3`='../Public/uploads/2017-06-07/59376125c2ad6.jpg' WHERE ( pid=5 ) [ RunTime:0.0741s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001529s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001675s ]
+
+[ 2017-06-07T10:12:56+08:00 ] 127.0.0.1 /liangzhuang/index.php/Admin/pp/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000797s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001224s ]
+SQL: SHOW COLUMNS FROM `pp` [ RunTime:0.0955s ]
+SQL: SELECT * FROM `pp`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000188s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016860s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016962s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000807s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000903s ]
+
+[ 2017-06-07T10:13:59+08:00 ] 127.0.0.1 /liangzhuang/index.php/Admin/pp/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001119s ]
+SQL: SHOW COLUMNS FROM `pp` [ RunTime:0.0222s ]
+SQL: SELECT * FROM `pp`  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000252s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024992s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025182s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000803s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000895s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001499s ]
+
+[ 2017-06-07T10:14:47+08:00 ] 127.0.0.1 /liangzhuang/index.php/Admin/pp/create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000975s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040649s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040771s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000864s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000975s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001163s ]
+
+[ 2017-06-07T10:18:19+08:00 ] 127.0.0.1 /liangzhuang/index.php/Admin/pp/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000842s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001419s ]
+SQL: SHOW COLUMNS FROM `pp` [ RunTime:0.0242s ]
+SQL: SELECT * FROM `pp`  [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021283s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021468s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000507s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001020s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001120s ]
+
+[ 2017-06-07T10:18:23+08:00 ] 127.0.0.1 /liangzhuang/index.php/Admin/pp/edit/pid/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000849s ]
+SQL: SHOW COLUMNS FROM `pp` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `pp` WHERE ( pid=6 ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014205s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014308s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000872s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000953s ]
+
+[ 2017-06-07T10:18:40+08:00 ] 127.0.0.1 /liangzhuang/index.php/Admin/pp/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001114s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\websever\soft\liangzhuang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\websever\soft\liangzhuang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\websever\soft\liangzhuang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `pp` [ RunTime:0.0145s ]
+NOTIC: [8] Undefined index: img4 F:\websever\soft\liangzhuang\Application\Admin\Controller\PpController.class.php 第 107 行.
+NOTIC: [8] Undefined index: img5 F:\websever\soft\liangzhuang\Application\Admin\Controller\PpController.class.php 第 108 行.
+SQL: UPDATE `pp` SET `pid`='6',`name`='Platinum Label大瓶薏仁水1000ML',`brand`='Platinum Label',`effect`='保湿,补水,温和',`fit-people`='  任何肤质，尤其是干燥缺水的肌肤 ',`volume`='1000ml',`time`='  3年（具体日期以收到实物为准）',`color`='无',`country`='日本',`explain`='Platinum Label大瓶薏仁化妆水，1000ML的容量配上实在的价格，涂脸涂身上就算每天都用它，1个月都用不下去一半！使用一段时间后肌肤透亮有光泽，痘痘什么的一扫而光！每天涂身上，再也不会发生脸和脖子不是一个颜色的尴尬！ ',`b_kind`='化妆水',`s_kind`='爽肤水',`img1`='../Public/uploads/2017-06-07/5937627fa1bee.jpg',`img2`='../Public/uploads/2017-06-07/5937627fa2ca8.jpg',`img3`='../Public/uploads/2017-06-07/5937627fa96a3.jpg' WHERE ( pid=6 ) [ RunTime:0.1010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001320s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001440s ]
+
+[ 2017-06-07T10:18:43+08:00 ] 127.0.0.1 /liangzhuang/index.php/Admin/pp/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001101s ]
+SQL: SHOW COLUMNS FROM `pp` [ RunTime:0.0195s ]
+SQL: SELECT * FROM `pp`  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000214s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028090s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028272s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000746s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001145s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001245s ]
+
+[ 2017-06-07T10:27:48+08:00 ] 127.0.0.1 /liangzhuang/index.php/Admin/pp/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000961s ]
+SQL: SHOW COLUMNS FROM `pp` [ RunTime:0.0217s ]
+SQL: SELECT * FROM `pp`  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000183s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000354s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026561s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026722s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000710s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001171s ]
+
+[ 2017-06-07T10:27:52+08:00 ] 127.0.0.1 /liangzhuang/index.php/Admin/pp/edit/pid/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000812s ]
+SQL: SHOW COLUMNS FROM `pp` [ RunTime:0.0197s ]
+SQL: SELECT * FROM `pp` WHERE ( pid=7 ) LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000257s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000447s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031296s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031445s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001442s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001592s ]
+
+[ 2017-06-07T10:28:44+08:00 ] 127.0.0.1 /liangzhuang/index.php/Admin/pp/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000816s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000807s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\websever\soft\liangzhuang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\websever\soft\liangzhuang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\websever\soft\liangzhuang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `pp` [ RunTime:0.0673s ]
+NOTIC: [8] Undefined index: img4 F:\websever\soft\liangzhuang\Application\Admin\Controller\PpController.class.php 第 107 行.
+NOTIC: [8] Undefined index: img5 F:\websever\soft\liangzhuang\Application\Admin\Controller\PpController.class.php 第 108 行.
+SQL: UPDATE `pp` SET `pid`='7',`name`='一叶子(one leaf) 面膜礼遇 补水舒润礼盒20片（嫩蔷薇舒缓补水面膜25ml*9+嫩石榴净透补水面膜25ml*9+白茶水润焕采蝶翼眼膜7ml*2',`brand`='一叶子(one leaf)',`effect`='紧致,保湿,修护肌肤,补水,滋润',`fit-people`='  任何肤质，尤其是干燥缺水的肌肤 ',`volume`='20片',`time`='3年',`color`='无',`country`='中国',`explain`='新老包装随机发货，具体以收到实物为准。介意的人士慎购！',`b_kind`='面膜',`s_kind`='面膜贴',`img1`='../Public/uploads/2017-06-07/593764da6d20d.jpg',`img2`='../Public/uploads/2017-06-07/593764da6e6de.jpg',`img3`='../Public/uploads/2017-06-07/593764da70549.jpg' WHERE ( pid=7 ) [ RunTime:0.7537s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003272s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003673s ]
+
+[ 2017-06-07T10:28:45+08:00 ] 127.0.0.1 /liangzhuang/index.php/Admin/pp/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001002s ]
+SQL: SHOW COLUMNS FROM `pp` [ RunTime:0.0232s ]
+SQL: SELECT * FROM `pp`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000237s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023754s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023879s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000948s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001004s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001145s ]
+
+[ 2017-06-07T10:31:36+08:00 ] 127.0.0.1 /liangzhuang/index.php/Admin/pp/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000855s ]
+SQL: SHOW COLUMNS FROM `pp` [ RunTime:0.0196s ]
+SQL: SELECT * FROM `pp`  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022415s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022594s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000731s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001131s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001266s ]
+
+[ 2017-06-07T10:31:39+08:00 ] 127.0.0.1 /liangzhuang/index.php/Admin/pp/edit/pid/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000987s ]
+SQL: SHOW COLUMNS FROM `pp` [ RunTime:0.0208s ]
+SQL: SELECT * FROM `pp` WHERE ( pid=8 ) LIMIT 1   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000226s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017810s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017996s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000683s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001112s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001229s ]
+
+[ 2017-06-07T10:32:16+08:00 ] 127.0.0.1 /liangzhuang/index.php/Admin/pp/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000993s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001021s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\websever\soft\liangzhuang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\websever\soft\liangzhuang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\websever\soft\liangzhuang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `pp` [ RunTime:0.0872s ]
+NOTIC: [8] Undefined index: img4 F:\websever\soft\liangzhuang\Application\Admin\Controller\PpController.class.php 第 107 行.
+NOTIC: [8] Undefined index: img5 F:\websever\soft\liangzhuang\Application\Admin\Controller\PpController.class.php 第 108 行.
+SQL: UPDATE `pp` SET `pid`='8',`name`='美迪惠尔保湿水库针剂面膜贴10片',`brand`='美迪惠尔（MEDIHEAL）',`effect`='修护肌肤,补水,滋润',`fit-people`='爱美人士',`volume`='  25ml*10 ',`time`='  3年（具体日期以收到实物为准）',`color`='无',`country`='韩国',`explain`='多款包装随机发货',`b_kind`='面膜',`s_kind`='面膜贴',`img1`='../Public/uploads/2017-06-07/593765af12a5f.jpg',`img2`='../Public/uploads/2017-06-07/593765af144ef.jpg',`img3`='../Public/uploads/2017-06-07/593765af17115.jpg' WHERE ( pid=8 ) [ RunTime:0.2083s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002145s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002329s ]
+
+[ 2017-06-07T10:32:18+08:00 ] 127.0.0.1 /liangzhuang/index.php/Admin/pp/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000780s ]
+SQL: SHOW COLUMNS FROM `pp` [ RunTime:0.0199s ]
+SQL: SELECT * FROM `pp`  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000250s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023831s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023999s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000731s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001149s ]
+

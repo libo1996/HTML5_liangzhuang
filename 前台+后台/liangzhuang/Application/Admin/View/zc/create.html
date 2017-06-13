@@ -1,0 +1,65 @@
+<layout name="layoutadmin" />
+    <div class="main-wrap">
+
+        <div class="crumb-wrap">
+            <div class="crumb-list"><i class="icon-font"></i><a href="{:U('Admin/index/index')}">首页</a><span class="crumb-step">&gt;</span><a class="crumb-name" href="{:U('Admin/zc/index')}">种草管理</a><span class="crumb-step">&gt;</span><span>新增种草</span></div>
+        </div>
+        <div class="result-wrap">
+            <div class="result-content">
+                <form action="{:U('Admin/zc/store')}" method="post" id="myform" name="myform" enctype="multipart/form-data">
+                    <table class="insert-tab" width="100%">
+                        <tbody><tr>
+                                <th><i class="require-red"></i>种草标题</th>
+                                <td>
+                                    <input class="common-text required" id="thumb" name="title" size="50" value="" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>图片1：</th>
+                                <td><input type="file" name="img1"></td>
+                            </tr>
+                            <tr>
+                                <th>图片2：</th>
+                                <td><input type="file" name="img2"></td>
+                            </tr>
+                            <tr>
+                                <th>图片3：</th>
+                                <td><input type="file" name="img3"></td>
+                            </tr>
+                            
+                            <tr>
+                                <th>名称1</th>
+                                <td><input type="text" name="name1"></td>
+                            </tr>
+                            <tr>
+                                <th>名称2</th>
+                                <td><input type="text" name="name2"></td>
+                            </tr><tr>
+                                <th>名称3</th>
+                                <td><input type="text" name="name3"></td>
+                            </tr>
+                           <tr>
+                                <th>介绍1</th>
+                                <td><input type="text" name="introduce1"></td>
+                            </tr>
+                            <tr>
+                                <th>介绍2</th>
+                                <td><input type="text" name="introduce2"></td>
+                            </tr><tr>
+                                <th>介绍3</th>
+                                <td><input type="text" name="introduce3"></td>
+                            </tr>
+                            <tr>
+                                <th></th>
+                                <td>
+                                    <input class="btn btn-primary btn6 mr10" value="提交" type="submit">
+                                    <input class="btn btn6" onclick="history.go(-1)" value="返回" type="button">
+                                </td>
+                            </tr>
+                        </tbody></table>
+                </form>
+            </div>
+        </div>
+
+    </div>
+   

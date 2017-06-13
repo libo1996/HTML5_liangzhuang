@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>靓妆后台主页</title>
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/admin/css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/admin/css/main.css"/>
+    <link href="__PUBLIC__/admin/css/jquery-accordion-menu.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="__PUBLIC__/admin/js/libs/modernizr.min.js"></script>
+    <script src="__PUBLIC__/admin/js/jquery-1.11.2.min.js" type="text/javascript"></script>
+    <script src="__PUBLIC__/admin/js/jquery-accordion-menu.js" type="text/javascript"></script>
+
+</head>
+<body>
+<div class="topbar-wrap white">
+    <div class="topbar-inner clearfix">
+        <div class="topbar-logo-wrap clearfix">
+            
+            <ul class="navbar-list clearfix">
+                <li><a class="on" href="{:U('Admin/index/index')}">首页</a></li>
+                <li><a href="{:U('Home/index/index')}" target="_blank">网站首页</a></li>
+            </ul>
+        </div>
+        <div class="top-info-wrap">
+            <ul class="top-info-list clearfix">
+               
+                <li><a href="#">退出</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="container clearfix">
+    <div class="sidebar-wrap">
+        <div class="sidebar-title">
+            <h1>菜单</h1>
+        </div>
+        <div  style="width:19px; ">
+        <div id="jquery-accordion-menu" class="jquery-accordion-menu" style="box-shadow:none; ">
+        <ul  >
+            <li ><a href="#"><i class="fa fa-suitcase"></i>产品管理 </a>
+                <ul class="submenu">
+                    <li><a href="{:U('Admin/pp/index')}"><i class="fa fa-book"></i>所有产品 </a></li>
+                    <li><a href="{:U('Admin/pp/create')}"><i class="fa fa-plus"></i>添加产品 </a>
+                </ul>
+            </li>
+            <li><a href="#"><i class="fa fa-suitcase"></i>视频管理 </a>
+                <ul class="submenu">
+                    <li><a href="{:U('Admin/video/index')}"><i class="fa fa-book"></i>所有视频 </a></li>
+                    <li><a href="{:U('Admin/video/create')}"><i class="fa fa-plus"></i>添加视频 </a>
+                </ul>
+            </li>
+            <li><a href="#"><i class="fa fa-suitcase"></i>文章管理 </a>
+                <ul class="submenu">
+                    <li><a href="{:U('Admin/sce/index')}"><i class="fa fa-book"></i>所有文章 </a></li>
+                    <li><a href="{:U('Admin/sce/create')}"><i class="fa fa-plus"></i>添加文章 </a>
+                </ul>
+            </li>
+            <li><a href="#"><i class="fa fa-suitcase"></i>种草管理 </a>
+                <ul class="submenu">
+                    <li><a href="{:U('Admin/zc/index')}"><i class="fa fa-book"></i>所有种草 </a></li>
+                    <li><a href="{:U('Admin/zc/create')}"><i class="fa fa-plus"></i>添加种草 </a>
+                </ul>
+            </li>
+            <li><a href="#"><i class="fa fa-suitcase"></i>用户管理 </a>
+                <ul class="submenu">
+                    <li><a href="{:U('Admin/user/index')}"><i class="fa fa-book"></i>所有用户 </a></li>
+                    <li><a href="{:U('Admin/user/create')}"><i class="fa fa-plus"></i>添加用户 </a>
+                </ul>
+            </li>
+        </ul>
+        
+    </div>
+       
+    </div> 
+    </div>
+    <!--/sidebar-->
+    {__CONTENT__}
+    <!--/main-->
+</div>
+<script type="text/javascript">
+
+    jQuery("#jquery-accordion-menu").jqueryAccordionMenu();
+    
+</script>
+</body>
+</html>

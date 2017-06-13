@@ -1,0 +1,140 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE HTML>
+<html>
+<head>
+<title>Video</title>
+<link href="/liangzhuang/Public/home/css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+<link href="/liangzhuang/Public/home/css/style.css" rel="stylesheet" type="text/css" media="all" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+	#spjx{
+		margin-bottom: -4%;
+	}
+</style>
+<script type="application/x-javascript">
+   addEventListener("load", function() 
+   	{ 
+   		setTimeout(hideURLbar, 0); 
+   	}, false); 
+   function hideURLbar(){ 
+   	window.scrollTo(0,1); 
+   } 
+</script>
+<script src="/liangzhuang/Public/home/js/jquery-1.8.3.min.js"></script>
+<script src="/liangzhuang/Public/home/js/responsiveslides.min.js"></script>
+<script>
+    $(function () {
+      $("#slider").responsiveSlides({
+      	auto: true,
+      	nav: true,
+      	speed: 500,
+        namespace: "callbacks",
+        pager: true,
+      });
+    });	
+  </script>
+<script type="text/javascript" src="/liangzhuang/Public/home/js/move-top.js"></script>
+<script type="text/javascript" src="/liangzhuang/Public/home/js/easing.js"></script>
+ <script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+			});
+		});
+	</script>
+    <link rel="stylesheet" href="/liangzhuang/Public/home/css/swipebox.css">
+    <script src="/liangzhuang/Public/home/js/jquery.swipebox.min.js"></script> 
+    <script type="text/javascript">
+		jQuery(function($) {
+			$(".swipebox").swipebox();
+		});
+	</script>
+	<style type="text/css">
+	#jfdh{
+		background-color:#CC99CC;
+	}
+	#vip{
+		background-color:#FF6666;
+	}
+	#mf{
+		background-color:#FFCC99;
+	}
+	</style>
+</head>
+<body>
+<!-- header -->
+<div class="header" id="home">
+	<div class="container">
+	   <div class="header-bottom">
+		<div class="logo">
+			<img src="/liangzhuang/Public/home/images/LOGO.png" width="60%">
+		</div>
+			<div class="top-menu">
+				<span class="menu"> </span>
+				<ul>
+					<nav class="cl-effect-5">
+					<li><a href="<?php echo U('Home/index/index');?>" ><span data-hover="首页">首页</span></a></li>
+					<li><a href="<?php echo U('Home/pp/product');?>"><span data-hover="产品介绍">产品介绍</span></a></li>
+					<li><a href="<?php echo U('Home/video/video');?>" class="active"><span data-hover="视频教学">视频教学</span></a></li>
+					<li><a href="<?php echo U('Home/sce/services');?>"><span data-hover="美妆点评">美妆点评</span></a></li>
+					<li><a href="<?php echo U('Home/zc/zcao');?>"><span data-hover="种草">种草</span></a></li>
+					</nav>
+				</ul>
+				</div>
+				 <!--script-nav-->
+		 <script>
+		 $("span.menu").click(function(){
+		 $(".top-menu ul").slideToggle("slow" , function(){
+		 });
+		 });
+		 </script>		
+		<div class="clearfix"></div>
+	</div>
+	</div>
+</div>
+			<div class="portfolio-work-section" id="portfolio">
+			<div class="container" >
+			<video width="1150" height="700" style="text-align: center;" controls>  <source src="/liangzhuang/Public/home/video/1.mp4" type="video/mp4">  <source src="movie.ogg" type="video/ogg">  <source src="movie.webm" type="video/webm">  <object data="video/0.blv" width="320" height="240">    <embed src="movie.swf" width="320" height="240">  </object> </video>
+					
+					</div>
+<div class="clearfix"></div>					
+				</div>		  
+		</div>
+	</div>
+	<!-- portfolio-section-ends -->
+	<div class="footer-section" >
+					<div class="container">
+						<div class="footer-left">
+							<p>Copyright © 2017.Company name All rights reserved.微距2.0</p>
+						</div>
+							<div class="bottom-menu">
+								<ul>
+<li><a href="<?php echo U('Home/index/index');?>" class="active"><span data-hover="首页">首页</span></a></li>
+					<li><a href="<?php echo U('Home/pp/product');?>"><span data-hover="产品介绍">产品介绍</span></a></li>
+					<li><a href="<?php echo U('Home/video/video');?>"><span data-hover="视频教学">视频教学</span></a></li>
+					<li><a href="<?php echo U('Home/sce/services');?>"><span data-hover="美妆点评">美妆点评</span></a></li>
+					<li><a href="<?php echo U('Home/zc/zcao');?>"><span data-hover="种草">种草</span></a></li>
+					</nav>
+								</ul>
+							</div>
+							<div class="clearfix"></div>
+							<script type="text/javascript">
+						$(document).ready(function() {
+							/*
+							var defaults = {
+					  			containerID: 'toTop', // fading element id
+								containerHoverID: 'toTopHover', // fading element hover id
+								scrollSpeed: 1200,
+								easingType: 'linear' 
+					 		};
+							*/
+							
+							$().UItoTop({ easingType: 'easeOutQuart' });
+							
+						});
+					</script>
+				<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+				</div>				
+				</div>
+</body>
+</html>

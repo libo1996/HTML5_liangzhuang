@@ -1,0 +1,330 @@
+[ 2017-06-01T10:11:30+08:00 ] 127.0.0.1 /liangzhuang/index.php/images/2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000799s ]
+ERR: 无法加载模块:Images
+
+[ 2017-06-01T10:11:30+08:00 ] 127.0.0.1 /liangzhuang/index.php/video/0.blv
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+ERR: 无法加载模块:Video
+
+[ 2017-06-01T10:11:30+08:00 ] 127.0.0.1 /liangzhuang/index.php/video/1.mp4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+ERR: 无法加载模块:Video
+
+[ 2017-06-01T10:11:30+08:00 ] 127.0.0.1 /liangzhuang/index.php/video/0.blv
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+ERR: 无法加载模块:Video
+
+[ 2017-06-01T10:11:30+08:00 ] 127.0.0.1 /liangzhuang/index.php/video/1.mp4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000731s ]
+ERR: 无法加载模块:Video
+
+[ 2017-06-01T10:11:30+08:00 ] 127.0.0.1 /liangzhuang/index.php/video/0.blv
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+ERR: 无法加载模块:Video
+
+[ 2017-06-01T10:11:30+08:00 ] 127.0.0.1 /liangzhuang/index.php/video/1.mp4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000727s ]
+ERR: 无法加载模块:Video
+
+[ 2017-06-01T10:11:30+08:00 ] 127.0.0.1 /liangzhuang/index.php/video/0.blv
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+ERR: 无法加载模块:Video
+
+[ 2017-06-01T10:11:30+08:00 ] 127.0.0.1 /liangzhuang/index.php/video/1.mp4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+ERR: 无法加载模块:Video
+
+[ 2017-06-01T10:11:30+08:00 ] 127.0.0.1 /liangzhuang/index.php/video/0.blv
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+ERR: 无法加载模块:Video
+
+[ 2017-06-01T10:11:30+08:00 ] 127.0.0.1 /liangzhuang/index.php/video/1.mp4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000767s ]
+ERR: 无法加载模块:Video
+
+[ 2017-06-01T10:11:44+08:00 ] 127.0.0.1 /liangzhuang/index.php/images/2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+ERR: 无法加载模块:Images
+
+[ 2017-06-01T10:11:44+08:00 ] 127.0.0.1 /liangzhuang/index.php/video/1.mp4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000744s ]
+ERR: 无法加载模块:Video
+
+[ 2017-06-01T10:11:44+08:00 ] 127.0.0.1 /liangzhuang/index.php/video/0.blv
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000748s ]
+ERR: 无法加载模块:Video
+
+[ 2017-06-01T10:11:44+08:00 ] 127.0.0.1 /liangzhuang/index.php/video/1.mp4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+ERR: 无法加载模块:Video
+
+[ 2017-06-01T10:11:44+08:00 ] 127.0.0.1 /liangzhuang/index.php/video/1.mp4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000749s ]
+ERR: 无法加载模块:Video
+
+[ 2017-06-01T10:11:44+08:00 ] 127.0.0.1 /liangzhuang/index.php/video/0.blv
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001115s ]
+ERR: 无法加载模块:Video
+
+[ 2017-06-01T10:11:44+08:00 ] 127.0.0.1 /liangzhuang/index.php/video/1.mp4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000722s ]
+ERR: 无法加载模块:Video
+
+[ 2017-06-01T10:11:44+08:00 ] 127.0.0.1 /liangzhuang/index.php/video/0.blv
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000769s ]
+ERR: 无法加载模块:Video
+
+[ 2017-06-01T10:11:44+08:00 ] 127.0.0.1 /liangzhuang/index.php/video/1.mp4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+ERR: 无法加载模块:Video
+
+[ 2017-06-01T10:11:44+08:00 ] 127.0.0.1 /liangzhuang/index.php/video/0.blv
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+ERR: 无法加载模块:Video
+
+[ 2017-06-01T10:11:44+08:00 ] 127.0.0.1 /liangzhuang/index.php/video/0.blv
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000788s ]
+ERR: 无法加载模块:Video
+
+[ 2017-06-01T10:12:12+08:00 ] 127.0.0.1 /liangzhuang/index.php/images/2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000876s ]
+ERR: 无法加载模块:Images
+
+[ 2017-06-01T10:12:12+08:00 ] 127.0.0.1 /liangzhuang/index.php/video/1.mp4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000745s ]
+ERR: 无法加载模块:Video
+
+[ 2017-06-01T10:12:12+08:00 ] 127.0.0.1 /liangzhuang/index.php/video/0.blv
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+ERR: 无法加载模块:Video
+
+[ 2017-06-01T10:12:12+08:00 ] 127.0.0.1 /liangzhuang/index.php/video/1.mp4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000712s ]
+ERR: 无法加载模块:Video
+
+[ 2017-06-01T10:12:12+08:00 ] 127.0.0.1 /liangzhuang/index.php/video/0.blv
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000693s ]
+ERR: 无法加载模块:Video
+
+[ 2017-06-01T10:12:12+08:00 ] 127.0.0.1 /liangzhuang/index.php/video/1.mp4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001498s ]
+ERR: 无法加载模块:Video
+
+[ 2017-06-01T10:12:12+08:00 ] 127.0.0.1 /liangzhuang/index.php/video/0.blv
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002724s ]
+ERR: 无法加载模块:Video
+
+[ 2017-06-01T10:12:12+08:00 ] 127.0.0.1 /liangzhuang/index.php/video/0.blv
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000962s ]
+ERR: 无法加载模块:Video
+
+[ 2017-06-01T10:12:13+08:00 ] 127.0.0.1 /liangzhuang/index.php/video/0.blv
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+ERR: 无法加载模块:Video
+
+[ 2017-06-01T10:12:13+08:00 ] 127.0.0.1 /liangzhuang/index.php/video/1.mp4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+ERR: 无法加载模块:Video
+
+[ 2017-06-01T10:12:13+08:00 ] 127.0.0.1 /liangzhuang/index.php/video/1.mp4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+ERR: 无法加载模块:Video
+
+[ 2017-06-01T10:12:23+08:00 ] 127.0.0.1 /liangzhuang/index.php/images/2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001207s ]
+ERR: 无法加载模块:Images
+
+[ 2017-06-01T10:12:23+08:00 ] 127.0.0.1 /liangzhuang/index.php/video/1.mp4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000740s ]
+ERR: 无法加载模块:Video
+
+[ 2017-06-01T10:12:23+08:00 ] 127.0.0.1 /liangzhuang/index.php/video/0.blv
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000820s ]
+ERR: 无法加载模块:Video
+
+[ 2017-06-01T10:12:23+08:00 ] 127.0.0.1 /liangzhuang/index.php/video/1.mp4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000715s ]
+ERR: 无法加载模块:Video
+
+[ 2017-06-01T10:12:23+08:00 ] 127.0.0.1 /liangzhuang/index.php/video/0.blv
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000737s ]
+ERR: 无法加载模块:Video
+
+[ 2017-06-01T10:12:23+08:00 ] 127.0.0.1 /liangzhuang/index.php/video/1.mp4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000541s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001975s ]
+ERR: 无法加载模块:Video
+
+[ 2017-06-01T10:12:23+08:00 ] 127.0.0.1 /liangzhuang/index.php/video/0.blv
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+ERR: 无法加载模块:Video
+
+[ 2017-06-01T10:12:23+08:00 ] 127.0.0.1 /liangzhuang/index.php/video/1.mp4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+ERR: 无法加载模块:Video
+
+[ 2017-06-01T10:12:23+08:00 ] 127.0.0.1 /liangzhuang/index.php/video/0.blv
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+ERR: 无法加载模块:Video
+
+[ 2017-06-01T10:12:23+08:00 ] 127.0.0.1 /liangzhuang/index.php/video/1.mp4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000723s ]
+ERR: 无法加载模块:Video
+
+[ 2017-06-01T10:12:23+08:00 ] 127.0.0.1 /liangzhuang/index.php/video/0.blv
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+ERR: 无法加载模块:Video
+
+[ 2017-06-01T10:12:24+08:00 ] 127.0.0.1 /liangzhuang/index.php/images/2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001338s ]
+ERR: 无法加载模块:Images
+
+[ 2017-06-01T10:12:24+08:00 ] 127.0.0.1 /liangzhuang/index.php/video/1.mp4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000708s ]
+ERR: 无法加载模块:Video
+
+[ 2017-06-01T10:12:24+08:00 ] 127.0.0.1 /liangzhuang/index.php/video/0.blv
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000884s ]
+ERR: 无法加载模块:Video
+
+[ 2017-06-01T10:12:24+08:00 ] 127.0.0.1 /liangzhuang/index.php/video/1.mp4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+ERR: 无法加载模块:Video
+
+[ 2017-06-01T10:12:24+08:00 ] 127.0.0.1 /liangzhuang/index.php/video/0.blv
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+ERR: 无法加载模块:Video
+
+[ 2017-06-01T10:12:24+08:00 ] 127.0.0.1 /liangzhuang/index.php/video/0.blv
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+ERR: 无法加载模块:Video
+
+[ 2017-06-01T10:12:24+08:00 ] 127.0.0.1 /liangzhuang/index.php/video/1.mp4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000748s ]
+ERR: 无法加载模块:Video
+
+[ 2017-06-01T10:12:24+08:00 ] 127.0.0.1 /liangzhuang/index.php/video/1.mp4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+ERR: 无法加载模块:Video
+
+[ 2017-06-01T10:12:24+08:00 ] 127.0.0.1 /liangzhuang/index.php/video/0.blv
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+ERR: 无法加载模块:Video
+
+[ 2017-06-01T10:12:24+08:00 ] 127.0.0.1 /liangzhuang/index.php/video/1.mp4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+ERR: 无法加载模块:Video
+
+[ 2017-06-01T10:12:24+08:00 ] 127.0.0.1 /liangzhuang/index.php/video/0.blv
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000507s ]
+ERR: 无法加载模块:Video
+

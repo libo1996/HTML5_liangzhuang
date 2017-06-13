@@ -1,0 +1,72 @@
+<layout name="layoutadmin" />
+    <div class="main-wrap">
+
+        <div class="crumb-wrap">
+            <div class="crumb-list"><i class="icon-font"></i><a href="{:U('Admin/index/index')}">首页</a><span class="crumb-step">&gt;</span><a class="crumb-name" href="{:U('Admin/zc/index')}">种草管理</a><span class="crumb-step">&gt;</span><span>编辑种草</span></div>
+        </div>
+        <div class="result-wrap">
+            <div class="result-content">
+                <form action="{:U('Admin/zc/update')}" method="post" id="myform" name="myform" enctype="multipart/form-data">
+                    <table class="insert-tab" width="100%">
+                        <tbody>
+                            <tr>
+                                <th><i class="require-red">*</i>种草ID：</th>
+                                <td>
+                                    <input class="common-text required" id="name" name="zid" size="50" value="{$zc.zid}" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><i class="require-red"></i>种草标题</th>
+                                <td>
+                                    <input class="common-text required" id="thumb" name="title" size="50" value="{$zc.title}" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>图片1：</th>
+                                <td><img src="__PUBLIC__/{$zc.img1}" width="300px" height="50px"/><input type="file" name="img1"></td>
+                            </tr>
+                            <tr>
+                                <th>图片2：</th>
+                                <td><img src="__PUBLIC__/{$zc.img2}" width="300px" height="50px"/><input type="file" name="img2"></td>
+                            </tr>
+                            <tr>
+                                <th>图片3：</th>
+                                <td><img src="__PUBLIC__/{$zc.img3}" width="300px" height="50px"/><input type="file" name="img3"></td>
+                            </tr>
+                            
+                            <tr>
+                                <th>名称1</th>
+                                <td> <input class="common-text required" id="name" name="name1" size="50" value="{$zc.name1}" type="text"></td>
+                            </tr>
+                            <tr>
+                                <th>名称2</th>
+                                <td><input class="common-text required" id="name" name="name2" size="50" value="{$zc.name2}" type="text"></td>
+                            </tr><tr>
+                                <th>名称3</th>
+                                <td><input class="common-text required" id="name" name="name3" size="50" value="{$zc.name3}" type="text"></td>
+                            </tr>
+                           <tr>
+                                <th>介绍1</th>
+                                <td><input type="text" name="introduce1" value="{$zc.introduce1}"></td>
+                            </tr>
+                            <tr>
+                                <th>介绍2</th>
+                                <td><input type="text" name="introduce2" value="{$zc.introduce2}"></td>
+                            </tr><tr>
+                                <th>介绍3</th>
+                                <td><input type="text" name="introduce3" value="{$zc.introduce3}"></td>
+                            </tr>
+                            <tr>
+                                <th></th>
+                                <td>
+                                    <input class="btn btn-primary btn6 mr10" value="提交" type="submit">
+                                    <input class="btn btn6" onclick="history.go(-1)" value="返回" type="button">
+                                </td>
+                            </tr>
+                        </tbody></table>
+                </form>
+            </div>
+        </div>
+
+    </div>
+   

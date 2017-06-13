@@ -1,0 +1,79 @@
+<layout name="layoutadmin" />
+<style>
+  .result-tab{
+    table-layout:fixed;
+  }
+  .result-tab td{
+width:100%;
+word-break:keep-all;/* 不换行 */
+white-space:nowrap;/* 不换行 */
+overflow:hidden;/* 内容超出宽度时隐藏超出部分的内容 */
+text-overflow:ellipsis;/* 当对象内文本溢出时显示省略标记(...) ；需与overflow:hidden;一 起使用。*/
+}
+
+</style>
+    <div class="main-wrap">
+
+        <div class="crumb-wrap">
+            <div class="crumb-list"><i class="icon-font"></i><a href="{:U('Admin/index/index')}">首页</a><span class="crumb-step">&gt;</span><span class="crumb-name">种草管理</span></div>
+        </div>
+
+        <div class="result-wrap">
+            <form name="myform" id="myform" method="post">
+                <div class="result-title">
+                    <div class="result-list">
+                        <a href="{:U('Admin/zc/create')}"><i class="icon-font"></i>新增种草</a>
+                    </div>
+                </div>
+                <div class="result-content">
+                    <table class="result-tab" width="100%">
+                        <tr>
+                            <th class="tc" width="5%"><input class="allChoose" name="" type="checkbox"></th>
+                            <th>ID</th>
+                            <th>种草标题</th>
+                            <th>图片1</th>
+                            <th>图片2</th>
+                            <th>图片3</th>
+                            
+                            
+                            <th>名称1</th>
+                            <th>名称2</th>
+                            <th>名称3</th>
+                           
+                            
+                            
+                            <th>介绍1</th>
+                            <th>介绍2</th>
+                            <th>介绍3</th>
+                            
+                          
+                            <th>操作</th>
+                        </tr>
+                        
+                        
+                        <volist name="zc" id="vo">
+                        <tr>
+                            <td class="tc"><input name="id[]" value="{$vo.zid}" type="checkbox"></td>
+                            <td>{$vo.zid}</td>
+                            <td>{$vo.title}</td>
+                            <td>{$vo.img1}</td>
+                            <td>{$vo.img2}</td>
+                            <td>{$vo.img3}</td>
+                            <td>{$vo.name1}</td>
+                            <td>{$vo.name2}</td>
+                            <td>{$vo.name3}</td>
+                            <td>{$vo.introduce1}</td>
+                            <td>{$vo.introduce2}</td>
+                            <td>{$vo.introduce3}</td>
+                            <td>
+                                <a class="link-update" href="{:U('Admin/zc/edit')}/zid/{$vo.zid}">修改</a>
+                                <a class="link-del" href="{:U('Admin/zc/destroy')}/zid/{$vo.zid}">删除</a>
+                            </td>
+                        </tr>
+                        </volist>
+                        
+                    </table>
+                </div>
+            </form>
+        </div>
+    </div>

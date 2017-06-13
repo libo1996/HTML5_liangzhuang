@@ -1,0 +1,135 @@
+
+.sjtjnr p a,.xctjnr p a,.ykxznr p a{
+	font-size: 1.5em;
+	color: rgb(243,243,243);
+	font-family: 黑体, sans-serif; 
+	margin-left: 38%;
+}
+.xctjnr{
+	margin-top: 2%;
+	padding-left: 10%;
+}
+.xctjnr1 div{
+	width: 18%;
+	height: 140px;
+	padding-right: 2%; 
+	float: left;
+}
+.xctjnr2{
+	width: 45%;
+	height: 270px;
+	float: left;
+	margin-top: -140px;
+}
+.dyldmeb{
+	clear: left;
+	margin-top: 2%;
+}
+.dbj11{
+	margin-top: 2%;
+}
+.xctjnr1 img{
+	width: 100%;
+	height: 80%;
+}
+.xctjnr2 img{
+	height: 100%;
+	width: 100%;
+}
+.gd2{
+	clear: left;
+	margin-left: 80%;
+	margin-top: 5%;
+}
+.gd2 a{
+	font-family: 黑体, sans-serif;
+	font-size: 1em;
+	color: rgb(243,243,243);
+}
+.gd2 a:hover{
+	color: rgb(255,134,13);
+}
+.ykxznr{
+	margin-top: 1%;
+	padding-left: 6%;
+}
+.ykxznr div{
+	padding-right: 2%; 
+	float: left;
+	width: 30%;
+	height: 350px;
+}
+.ykxznr img{
+	width: 100%;
+	height: 100%;
+
+}
+.ykxznr p{
+	margin-top: 10%;
+}
+.gyqz a{
+		color: #333;
+}
+.gyqz a{
+	font-family: 黑体, sans-serif;
+	font-size: 1em;
+	color: white;
+}
+.gyqz a:hover{
+	color: rgb(255,134,13);
+}
+.gd3{
+	padding-top: 8%;
+	clear: left;
+	margin-left: 82%;
+}
+.gd3 a{
+	font-family: 黑体, sans-serif;
+	font-size: 1em;
+	color: white;
+}
+.gd3 a:hover{
+	color: rgb(255,134,13);
+}
+.idx-inspire{
+	clear: both;
+	overflow:hidden;
+	position:relative;
+}
+.idx-inspire ul{
+	position:relative;
+	z-index:1
+}
+.idx-inspire ul li{
+	width:100%;
+}
+.idx-inspire li{
+	background-size:cover;
+	width:100%;
+	background-position:top center;
+	position:relative;
+	overflow:hidden
+}
+.idx-inspire .pt{
+	position:absolute;
+	width:12px;
+	right:3%;
+	top:40%;
+	z-index:998
+}
+.idx-inspire .pt a{
+	width:8px;
+	height:8px;
+	background:#fff;
+	border-radius:100%;
+	margin:10px auto;
+	display:block;
+	-webkit-animation-time:.5s
+}
+.idx-inspire .pt a.on{
+	width:8px;
+	height:8px;
+	background:none;
+	border:2px solid #eb6100;
+	border-radius:100%
+}
