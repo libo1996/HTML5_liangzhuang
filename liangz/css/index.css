@@ -126,10 +126,10 @@
 	display:block;
 	-webkit-animation-time:.5s
 }
-/*.idx-inspire .pt a.on{*/
-	/*width:8px;*/
-	/*height:8px;*/
-	/*background:none;*/
-	/*border:2px solid #eb6100;*/
-	/*border-radius:100%*/
-/*}*/
+.idx-inspire .pt a.on{
+	width:8px;
+	height:8px;
+	background:none;
+	border:2px solid #eb6100;
+	border-radius:100%
+}
