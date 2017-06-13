@@ -1,3 +1,4 @@
+
 #img span{
    color:#0E0A12;
    margin-left: 10px;
@@ -153,11 +154,11 @@ font-size: 15px;
 
 }
 
-.tabBodyCurrent{
+/*.tabBodyCurrent{*/
 
-    display:block;
+    /*display:block;*/
 
-}
+/*}*/
 #m1{
   margin-top: 20px;
 }
