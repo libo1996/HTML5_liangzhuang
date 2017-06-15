@@ -1,0 +1,151 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title></title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/geren.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="css/layoutit.css" type="text/css"  />
+
+<script src="js/jquery.js"></script>
+
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+
+<style type="text/css">
+
+	.search-box a{
+		font-weight:bold;
+		font-family: 'Arvo', serif;
+		font-size: 1em;
+		color: rgb(255,255,255);
+	}
+	.search-box a:hover{
+	color: rgb(255,134,13);
+	}
+	</style>
+</head>
+<body>
+<!-- header -->
+<div class="header" id="home">
+	<div class="container">
+	   <div class="header-bottom">
+		<div class="logo">
+			<img src="images/LOGO.png" width="60%">
+		</div>
+			<div class="top-menu">
+				<span class="menu"> </span>
+				<ul>
+					<nav class="cl-effect-5">
+					<li><a href="index.html" class="active"><span data-hover="首页">首页</span></a></li>
+					<li><a href="product.html"><span data-hover="产品介绍">产品介绍</span></a></li>
+					<li><a href="video.html"><span data-hover="视频教学">视频教学</span></a></li>
+					<li><a href="services.html"><span data-hover="美妆点评">美妆点评</span></a></li>
+					<li><a href="zcao.html"><span data-hover="种草">种草</span></a></li>
+					</nav>
+				</ul>
+				</div>
+
+				 <!--script-nav-->
+		 <script>
+		 $("span.menu").click(function(){
+		 $(".top-menu ul").slideToggle("slow" , function(){
+		 });
+		 });
+		 </script>
+				<div class="search-box">
+					    <div id="sb-search" class="sb-search">
+					        <a href="ge.html"><p>zmalqp@163.com</p></a>
+						</div>
+				    </div>
+		<div class="clearfix"></div>
+	</div>
+	</div>
+</div>
+
+			<div class="content">
+			<div class="con4">
+				<canvas id="cvs" width="200" height="200"></canvas>
+				<span class="btn upload">上传头像<input type="file" class="upload_pic" id="upload"></span>
+			</div>
+			</div>
+			<div class="xx">
+				<div class="dbt">
+					<h1>积分签到</h1>
+					<HR style="border:1 dashed #987cb9; margin-left:20%; margin-top:20px; margin-bottom:50px;" width="60%" color=#987cb9 SIZE=1>
+				</div>
+				<div class="xxxg">
+					<div class="row clearfix">
+						<div class="col-md-1 column"></div>	
+						<div class="col-md-2 column" id="img">
+							<p>积分：<span id="fen">200</span></p>
+					    </div>
+					    <div class="col-md-8 column">
+					    	<button id="btn" onclick="aa()">签到</button>
+					    </div>	
+					    <div class="col-md-1 column"></div>		
+				    </div>
+				</div>
+			
+
+			<div class="xx">
+				<div class="dbt">
+					<h1>会员中心</h1>
+					<HR style="border:1 dashed #987cb9; margin-left:20%; margin-top:20px; margin-bottom:50px;" width="60%" color=#987cb9 SIZE=1>
+				</div>
+				<div class="xxxg">
+					<div class="row clearfix">
+						<div class="col-md-1 column"></div>	
+						<div class="col-md-2 column" id="img">
+						<p>15元/月</p>
+						<p>扫码支付即可</p>
+						</div>
+							<div class="zhifu">
+								<button onclick="showImg()">支付宝</button>
+								<img src="images/zhifu.jpg" id="we">
+							</div>
+
+						
+				    </div>
+				</div>
+
+
+				<div class="footer-section" id="c123">
+					<div class="container">
+						<div class="footer-left">
+							<p>    Copyright © 靓妆.Company name All rights reserved.</p>
+						</div>
+							<div class="bottom-menu">
+								<ul>
+								<li><a href="index.html" class="active">首页</a></li>
+								<li><a href="product.html">产品介绍</a></li>
+								<li><a href="blog.html">视频介绍</a></li>
+								<li><a href="services.html">美妆点评</a></li>
+								<li><a href="zcao.html">种草</a></li>
+								</ul>
+							</div>
+							<div class="clearfix"></div>
+							<script type="text/javascript">
+						$(document).ready(function() {
+							/*
+							var defaults = {
+					  			containerID: 'toTop', // fading element id
+								containerHoverID: 'toTopHover', // fading element hover id
+								scrollSpeed: 1200,
+								easingType: 'linear' 
+					 		};
+							*/
+							
+							$().UItoTop({ easingType: 'easeOutQuart' });
+							
+						});
+					</script>
+				<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+				</div>				
+				</div>
+</body>
+<script src="js/geren.js"></script>
+</html>
