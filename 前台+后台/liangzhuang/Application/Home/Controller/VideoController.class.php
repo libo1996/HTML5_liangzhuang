@@ -7,9 +7,5 @@ class VideoController extends Controller {
      $video = $videoModel->select();
      $this->assign('video', $video);
      $this->display();
-
-   
 }
- 
-
 }
