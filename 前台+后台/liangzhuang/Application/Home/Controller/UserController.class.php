@@ -8,8 +8,5 @@ class UserController extends Controller {
      $user=$userModel->where("uid=$id")->find();
      $this->assign('user',$user);
      $this->display();
-       
-         
      }
-     
 }
